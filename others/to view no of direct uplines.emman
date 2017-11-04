@@ -1,0 +1,3 @@
+SELECT a.FK_users,count(b.FK_users) as directmembercount FROM `regdetails` `a`
+INNER JOIN regdetails b ON a.FK_users = b.uplineid
+GROUP BY a.FK_users

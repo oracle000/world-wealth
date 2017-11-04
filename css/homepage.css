@@ -1,0 +1,1655 @@
+body
+{
+	padding:0;
+	margin:0;
+	background-color:#dedede;
+}
+div#container
+{
+	width:100%;
+}
+div#header
+{
+	top:0;
+	position:fixed;
+	height:120px;
+	width:100%;
+	background-color: rgba(255, 255, 255, 1);
+	box-shadow:0px 0px 10px 0px #808080;
+	z-index:2;
+}
+div#tophdr
+{
+	border-bottom:1px solid #d4d4d4;
+	height:50px;
+}
+img.wwicon
+{
+	margin-left:20px;
+}
+div#bothdrcontainer
+{
+
+	height:60px;
+	width:500px;
+	margin-top:5px;
+	margin-left:auto;
+	margin-right:auto;
+}
+div#bothdrcontainer a
+{
+	text-decoration:none;
+}
+div#usermod,div#walletmod
+{
+	float:left;
+	height:60px;
+	width:50px;
+	margin-right:40px;
+	//border:1px solid black;
+}
+div#transactionmod,div#incentivesmod
+{
+	float:left;
+	height:60px;
+	width:80px;
+	margin-right:40px;
+	//border:1px solid black;
+}
+div#logoutmod
+{
+	float:left;
+	height:60px;
+	width:50px;
+	//border:1px solid black;
+}
+div#usermod:hover,div#walletmod:hover,div#transactionmod:hover,div#incentivesmod:hover,div#logoutmod:hover
+{
+	transition-duration:0.5s;
+	background-color:#dedede;
+	cursor:pointer;
+}
+div.hdrlinks
+{
+	font-family:tahoma;
+	font-size:12px;
+	text-align:center;
+	color:#333333;
+}
+img#imghdrlinks
+{
+	margin-left:5px;
+}
+img#imghdrlinkstrx
+{
+	margin-left:20px;
+}
+div.imgcon
+{
+	//border:1px solid black;
+	height:40px;
+}
+div#content
+{
+	height:*;
+	margin-top:120px;
+	padding:30px;
+}
+div#leftcontent
+{
+	background-color:white;
+	height:*;
+	width:calc(25% - 30px);
+	box-shadow:0px 0px 3px 0px #ededed;
+	float:left;
+	padding:15px;
+}
+div#rightcontent
+{
+	background-color:white;
+	height:*;
+	width:calc(73% - 40px);
+	margin-left:2%;
+	box-shadow:0px 0px 3px 0px #ededed;
+	float:left;
+	padding:20px;
+}
+div#topcontent
+{
+	height:50px;
+	font-family:Segoe UI;
+	color:#666666;
+}
+div#userpicwrapper
+{
+	height:90px;
+}
+div#userpic
+{
+	border:1px solid #eeeeee;
+	margin:auto;
+	width:90px;
+	height:90px;
+}
+img#imguserpic
+{
+	max-width: 100%;
+    max-height: 100%;
+}
+#acctstrong
+{
+	font-weight:600;
+	color:#666666;
+}
+div#accountinfo
+{
+	margin-top:10px;
+	//border:1px solid black;
+}
+div#acctcol
+{
+	font-family:tahoma;
+	height:25px;
+	line-height:25px;
+	font-size:13px;
+	border-bottom:1px solid #eeeeee;
+	overflow:hidden;
+}
+span#acctrslt
+{
+	color:#666666;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	height:25px;
+	width:100%;
+}
+div#rcwrapper
+{
+	height:*;
+}
+div.tabreg span, div.tabcom span
+{
+	margin-left:5px;
+}
+div.tabreg, div.tabcom
+{
+	font-family:tahoma;
+	color:#666666;
+	display:inline-block;
+	float:left;
+	height:40px;
+	line-height:40px;
+	width:150px;
+	border:1px solid #acacac;
+	margin-right:10px;
+	background-color:#ededed;
+}
+div.tabreg:hover, div.tabcom:hover
+{
+	transition-duration:0.5s;
+	box-shadow:0px 0px 5px 0px #acacac;
+	color:black;
+	cursor:pointer;
+}
+
+div.imgrc
+{
+	height:30px;
+	float:left;
+	margin-top:5px;
+	margin-left:5px;
+}
+div.imgrc img
+{
+	max-height:100%;
+	max-width:100%;
+}
+
+div#rctitle
+{
+	height:50px;
+}
+div#rccolhdr
+{
+	height:30px;
+	margin-left:5px;
+	color:#666666;
+	font-weight:700;
+	font-size:14px;
+	border-bottom:2px solid #dddddd;
+}
+div#rccolres
+{
+	height:50px;
+	margin-left:10px;
+	margin-top:10px;
+	color:#666666;
+	font-size:14px;
+	border-bottom:1px solid #dddddd;
+}
+div.rccollbldeschdr
+{
+	font-family:tahoma;
+	height:30px;
+	width:70%;
+	float:left;
+}
+div.rccollbltothdr
+{
+	font-family:tahoma;
+	height:32px;
+	width:30%;
+	float:left;
+	text-align:right;
+}
+div.rccollbltotres
+{
+	font-family:tahoma;
+	height:32px;
+	line-height:32px;
+	width:30%;
+	float:left;
+	text-align:right;
+	font-size:16px;
+	font-weight:normal;
+}
+span.rcdesctop
+{
+	float:left;
+	height:17px;
+	width:100%;
+	font-weight:599;
+}
+span.rcdescbot
+{
+	float:left;
+	height:15px;
+	width:100%;
+	font-size:12px;
+}
+span.auwtitle
+{
+	font-family:tahoma;
+	font-size:18px;
+	margin-top:40px;
+	height:40px;
+	float:left;
+	border-bottom:1px solid #eeeeee;
+	width:100%;
+	color:#666666;
+}
+div#auwcol
+{
+	font-family:tahoma;
+	font-size:14px;
+	float:left;
+	margin-top:10px;
+	border-bottom:1px solid #eeeeee;
+	width:100%;
+}
+div#auwcol span
+{
+	display:block;
+}
+span.auwcollinks
+{
+	font-size:16px;
+	text-decoration:underline;
+	color:#007aff;
+}
+span.auwcollinks:hover
+{
+	cursor:pointer;
+}
+span.auwcoldesc
+{
+	font-size:12px;
+	margin-top:3px;
+	margin-bottom:10px;
+}
+div.userwrapper
+{
+	border:1px solid black;
+	height:30px;
+	position:relative;
+}
+div#headerwrapreg
+{
+	color:#000000;
+	height:100px;
+	border:0;
+}
+div#headerreg
+{
+	background-color:#ffffff;
+	height:70px;
+	
+}
+div.webnamewrapreg
+{
+	float:left;
+	margin-top:10px;
+	margin-left:40px;
+}
+div.headerlinkswrapreg
+{
+	margin-top:40px;
+}
+div#containerreg
+{
+	width:100%;
+	height:100%;
+}
+div.hdrlinkswrapreg
+{
+	float:left;
+	margin-top:20px;
+	font-family:"Arial";
+	font-size:14px;
+	letter-spacing:2px;
+	width:800px;
+	
+}
+div#headerwrapreg
+{
+	height:102px;
+	width:1200px;
+	margin:auto;
+}
+div.home,div.aboutus,div.contactus,div.login
+{
+	float:right;
+	width:120px;
+	text-align:center;
+	
+}
+div.home:hover,div.aboutus:hover,div.contactus:hover,div.login:hover
+{
+	cursor:pointer;
+	font-weight:bold;
+}
+.hdrlinkswrapreg a
+{
+	text-decoration:none;
+	color:#074f8e;
+}
+
+div.profile,div.settings,div.logout
+{
+	float:right;
+	width:100px;
+	text-align:center;
+	font-weight:bold;
+	color:#074f8e;
+	margin-left:5px;
+	margin-right:5px;
+	height:30px;
+	line-height:30px;
+	font-family:helvetica;
+	font-size:14px;
+}
+div.profile:hover,div.settings:hover,div.logout:hover
+{
+	cursor:pointer;
+	border-bottom:5px solid #074f8e;
+}
+div#contenthome
+{
+	height:500px;
+	width:100%;
+	padding-top:50px;
+}
+div#wrapperhome
+{
+	width:1200px;
+	margin:auto;
+	height:100%;
+}
+div#picprofile
+{
+	border:1px solid black;
+	height:100px;
+	width:100px;
+	margin:auto;
+	border-radius:50px;
+}
+div#equivamount
+{
+	text-align:center;
+	font-family:"Segoe UI";
+	font-size:20px;
+	font-weight:100;
+}
+div#fullname
+{
+	text-align:center;
+	font-family:"Segoe UI";
+	font-size:36px;
+	font-weight:400;
+}
+div#serviceincome
+{
+	text-align:center;
+	font-family:"Segoe UI";
+	font-size:16px;
+	font-weight:100;
+}
+div.lbltxtfld
+{
+	display:inline-block;
+	width:calc(80% - 30px);
+}
+div.lbltxtfld2
+{
+	display:inline-block;
+	width:calc(70% - 50px);
+}
+div.lbltxtfld3
+{
+	display:inline-block;
+	width:50px;
+	float:right;
+	margin-top:10px;
+	min-width:43px;
+}
+div#lbldesc
+{
+	text-align:center;
+	font-family:"Segoe UI";
+	font-size:16px;
+	font-weight:100;
+}
+#summary,#lvldtls
+{
+	border:none;
+	background-color:white;
+	outline:none;
+	width:120px;
+	height:40px;
+	font-weight:500;
+	font-family:"Segoe UI";
+	border-radius:15px;
+	box-shadow:0px 0px 10px -5px;
+}
+#summary:hover,#lvldtls:hover
+{
+	box-shadow:0px 0px 10px -2px;
+	background-color:black;
+	color:white;
+	cursor:pointer;
+}
+#btnsummary,#btnlvldtls
+{
+	display:inline-block;
+}
+#summary
+{
+	float:left;
+}
+#btnlvldtls
+{
+	float:right;
+}
+div#btnwrapper
+{
+	height:50px;
+	margin:auto;
+	width:260px;
+}
+div#buttons
+{
+	margin-top:20px;
+}
+div#profilesettings,div#formuploader
+{
+	margin:0px 25px 40px auto;  
+	width:calc(100% - 50px);
+	height:*;
+	padding:20px 0px 20px 0px;
+	background-color:white;
+	box-shadow:0px 0px 3px 0px #ededed;
+	
+}
+div#lblprosettings,div.futitle
+{
+	text-indent:25px;
+	height:50px;
+	font-family:Segoe UI;
+	color:#666666;
+	margin-top:140px;
+	font-size:20px;
+}
+div#fldwrapper
+{
+	width:90%;
+	height:*;
+	margin:auto;
+	font-family:"Segoe UI";
+}
+div.inputwrapper
+{
+	
+	width:70%;
+	margin:0px auto 30px auto;
+
+}
+div.lblinput
+{
+	width:20%;
+	float:left;
+	font-family:"tahoma";
+	text-align:right;
+	margin-right:30px;
+	line-height:40px;
+	font-size:14px;
+	height:40px;
+	color:#8c8c8c;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+#firstname,#lastname,#email,#contactno,#address,#bdate
+{
+	width:100%;
+	height:40px;
+	text-indent:10px;
+	color:gray;
+	border-radius:5px;
+	border:1px solid #ededed;
+}
+#oldpass,#retypepass,#newpass
+{
+	width:100%;
+	height:40px;
+	text-indent:10px;
+	color:gray;
+	border-radius:5px;
+	border:1px solid #ededed;
+}
+div.lbltxtfld input[type=text]:focus {
+	transition-duration: 1s;
+    box-shadow: 0 0 2pt 0pt #007aff;
+	border:none;
+	outline:none;
+}
+
+#gender
+{
+	width:100px;
+	height:40px;
+	text-indent:10px;
+	color:gray;
+	border-radius:5px;
+	border:1px solid #ededed;
+}
+#month,#day
+{
+	height:40px;
+	width:80px;
+	text-indent:10px;
+	color:gray;
+	border-radius:5px;
+	border:1px solid #ededed;
+}
+#year
+{
+	height:40px;
+	width:100px;
+	text-indent:10px;
+	color:gray;
+	border-radius:5px;
+	border:1px solid #ededed;
+}
+#saveregdetails
+{
+	height:40px;
+	width:100px;
+	background-color:#024972;
+	outline:none;
+	border:1px solid #024972;
+	color:black;
+	color:white;
+	font-family:tahoma;
+	border-radius:5px;
+	float:left;
+}
+#savepass
+{
+	height:40px;
+	width:100%;
+	background-color:#024972;
+	outline:none;
+	border:1px solid #024972;
+	color:black;
+	color:white;
+	font-family:tahoma;
+	border-radius:5px;
+}
+#savepass:hover
+{
+	cursor:pointer;
+	transition-duration:1s;
+	background-color:white;
+	color:#024972;
+}
+#discardregdetails
+{
+	height:40px;
+	width:100px;
+	background-color:#ff9600;
+	outline:none;
+	border:1px solid #ff9600;
+	color:black;
+	color:white;
+	font-family:tahoma;
+	border-radius:5px;
+	float:left;
+	margin-left:10px;
+}
+#saveregdetails:hover
+{
+	cursor:pointer;
+	transition-duration: 1s;
+	background-color:white;
+	color:#024972;
+}
+#discardregdetails:hover
+{
+	cursor:pointer;
+	transition-duration: 1s;
+	background-color:white;
+	color:#ff9600;
+}
+div#tbldetails
+{
+	width:500px;
+	margin:auto;
+	height:200px;
+}
+div#summarydtls
+{
+	border:1px solid silver;
+	width:60%;
+	height:100px;
+	margin:auto;
+	display:none;
+}
+div.leftsum
+{
+	float:left;
+	width:50%;
+	text-align:center;
+	font-family:"Segoe UI";
+	font-weight:100px;
+	font-size:20px;
+	height:40px;
+	line-height:40px;
+	background-color:silver;
+}
+div.rightsum
+{
+	background-color:silver;
+	float:left;
+	width:50%;
+	text-align:center;
+	font-family:"Segoe UI";
+	font-weight:100px;
+	font-size:20px;
+	height:40px;
+	line-height:40px;
+}
+div.countsponsor
+{
+	float:left;
+	width:50%;
+	text-align:center;
+	font-size:30px;
+	font-family:"Segoe UI";
+}
+div.countupline
+{
+	float:left;
+	width:50%;
+	text-align:center;
+	font-size:30px;
+	font-family:"Segoe UI";
+}
+div#tbllvldtls
+{
+	font-size:30px;
+	font-family:"Segoe UI";
+	text-align:center;
+	font-weight:100px;
+	display:none;
+}
+div#passwordsettings
+{
+	background-color:white;
+	margin:0px 0px 20px 30px;
+	width:calc(100% - 60px);
+	padding-top:20px;
+	padding-bottom:20px;
+}
+div.lblpassset
+{
+	font-family:"Segoe UI";
+	font-size:30px;
+	font-weight:100;
+	height:50px;
+	color:#666666;
+	margin-top:140px;
+	text-indent:30px;
+}
+div#contentprofile
+{
+	
+	width:100%;
+	margin:auto;
+	height:700px;
+	font-family:"Segoe UI";
+}
+div#wrapperwcmsg
+{
+	width:1115px;
+	margin:auto;
+	border-bottom:1px solid silver;
+	padding-bottom:20px;
+	font-family:calibri;
+	padding-top:15px;
+	font-size:14px;
+}
+div#wrapperwcmsg strong
+{
+	font-weight:550;
+}
+div#summarywrapper
+{
+	height:400px;
+}
+div#memberlinks
+{
+	background-color:#202020;
+	height:30px;
+}
+div#memberwrapper
+{
+	width:1120px;
+	margin:auto;
+}
+div#memberwrapper a
+{
+	text-decoration:none;
+	//color:#074f8e;
+	color:white;
+}
+div#summarywrapper
+{
+	width:1120px;
+	margin:auto;
+	padding-top:10px;
+}
+div#summarycontainer
+{
+	
+}
+div#icon
+{
+	height:40px;
+}
+div#summarytext
+{
+	margin-left:40px;
+}
+div#detailedcontainer
+{
+	padding-top:20px;
+}
+table#detailedlvldtls
+{
+	border-spacing:0;
+	width:700px;
+}
+table#detailedlvldtls th
+{
+	text-align:left;
+}
+table tr#tblresult
+{
+	font-size:14px;
+	color:gray;
+}
+
+div#footer
+{
+	height:300px;
+	background-color:#111111;
+}
+div#footercontainer
+{
+	width:1000px;
+	margin:auto;
+	color:white;
+	font-family:"Segoe UI";
+	padding-top:50px;
+}
+div.footerlinks
+{
+	height:40px;
+	line-height:40px;
+	font-weight:100;
+	font-size:14px;
+	text-indent:20px;
+	color:#c6c6c6;
+}
+div.leftfooter,div.middlefooter,div.rightfooter
+{
+	float:left;
+	width:33.33%;
+}
+div.footerlinks1
+{
+	height:40px;
+	line-height:40px;
+	font-weight:100;
+	font-size:14px;
+	color:#c6c6c6;
+}
+img.callico,img.msgico,img.homeico
+{
+	padding-right:10px;
+	margin-top:5px;
+}
+div#followuscontainer
+{
+	width:1000px;
+	margin:auto;
+	height:100%;
+}
+div#fuleft,div#fumid,div#furight
+{
+	float:left;
+	width:50%;
+	height:100%;
+}
+div#nxtlevelbar
+{
+	border:1px solid black;
+	width:200px;
+	display:inline-block;
+	height:10px;
+	margin-top:3px;
+	text-align:center;
+}
+div#levelbarcon
+{
+	height:17px;
+}
+#tblresult a
+{
+	text-decoration:none;
+	color:black;
+}
+#tblresult a:hover
+{
+	color:blue;
+}
+#tblresult:hover
+{
+	background-color:lightblue;
+	cursor:pointer;
+}
+#tblresult:nth-child(odd)
+{
+	background-color:#e2f5ff;
+}
+#tblresult:nth-child(odd):hover
+{
+	background-color:lightblue;
+	cursor:pointer;
+}
+#bankname,#accountno
+{
+	height:35px;
+	color:gray;
+	text-indent:10px;
+	border-radius:5px;
+	border:1px solid #ededed;
+}
+#bankname
+{
+	width:30%;
+}
+#accountno
+{
+	width:calc(70% - 10px);
+}
+div#auwcol a
+{
+	text-decoration:none;
+	color:inherit;
+}
+div#transactiontbl
+{
+	min-height:500px;
+	height:*;
+	background-color:white;
+	width:calc(100% - 20px);
+	margin-left:10px;
+	box-shadow:0px 0px 5px 0px #ededed;
+}
+div#searchtbl
+{
+	height:70px;
+	box-shadow:0px 0px 5px 0px #efefef;
+	background-color:#f5f5f5;
+	margin-top:140px;
+	width:calc(100% - 20px);
+	margin-left:10px;
+}
+div#transactiontitle span
+{
+	font-family:Segoe UI;
+	color:#666666;
+	font-size:18px;
+	height:60px;
+	line-height:60px;
+	text-indent:10px;
+	float:left;
+	
+}
+div#transactiontitle
+{
+	height:60px;
+}
+span.searchlbl
+{
+	font-family:tahoma;
+	color:#666666;
+	margin-right:20px;
+	float:left;
+	margin-top:20px;
+}
+span.searchinput, span.searchbtn
+{
+	float:left;
+	margin-top:15px;
+}
+#idno
+{
+	height:30px;
+	width:200px;
+	border-radius:5px;
+	border:1px solid #ededed;
+	text-indent:10px;
+}
+div.searchtblwrap
+{
+	margin-left:20px;
+}
+#search
+{
+	background-color:#009174;
+	border:1px solid #009174;
+	color:white;
+	font-family:tahoma;
+	height:30px;
+	width:80px;
+	margin-left:20px;
+	border-radius:5px;
+	outline:none;
+	
+}
+#search:hover
+{
+	transition-duration:1s;
+	background-color:white;
+	color:#009174;
+	cursor:pointer;
+	outline:none;
+}
+#idno:focus
+{
+	box-shadow: 0 0 2pt 0pt #007aff;
+	border:none;
+	outline:none;
+}
+
+	
+
+.tree ul li.active  a:before {
+    background-position: 25px center;
+	
+}
+/*Now the CSS*/
+* {margin: 0; padding: 0;}
+
+.tree
+{
+	width:*;
+}
+.tree ul {
+	padding-top: 20px; position: relative;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	
+}
+
+.tree li {
+	float: left; 
+	text-align: center;
+	
+	list-style-type: none;
+	position: relative;
+	padding: 20px 5px 0 5px;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+}
+
+/*We will use ::before and ::after to draw the connectors*/
+
+.tree li::before, .tree li::after{
+	content: '';
+	position: absolute; 
+	top: 0; 
+	right: 50%;
+	border-top: 1px solid #ccc;
+	width: 50%; height: 20px;
+}
+.tree li::after{
+	right: auto; left: 50%;
+	border-left: 1px solid #ccc;
+}
+
+/*We need to remove left-right connectors from elements without 
+any siblings*/
+.tree li:only-child::after, .tree li:only-child::before {
+	display: none;
+}
+
+/*Remove space from the top of single children*/
+.tree li:only-child{ padding-top: 0;}
+
+/*Remove left connector from first child and 
+right connector from last child*/
+.tree li:first-child::before, .tree li:last-child::after{
+	border: 0 none;
+}
+/*Adding back the vertical connector to the last nodes*/
+.tree li:last-child::before{
+	border-right: 1px solid #ccc;
+	border-radius: 0 5px 0 0;
+	-webkit-border-radius: 0 5px 0 0;
+	-moz-border-radius: 0 5px 0 0;
+}
+.tree li:first-child::after{
+	border-radius: 5px 0 0 0;
+	-webkit-border-radius: 5px 0 0 0;
+	-moz-border-radius: 5px 0 0 0;
+}
+
+/*Time to add downward connectors from parents*/
+.tree ul ul::before{
+	content: '';
+	position: absolute; top: 0; left: 50%;
+	border-left: 1px solid #ccc;
+	width: 0; height: 20px;
+}
+.tree li a{
+	border: 1px solid #ccc;
+	padding-top:5px;
+	width:67.5px;
+	text-decoration: none;
+	color: #666;
+	height:*;
+	font-family: arial, verdana, tahoma;
+	font-size: 8px;
+	display: inline-block;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+}
+.pyramiddesc
+{
+	font-size:9px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.pyramidfullname
+{
+	border-top:1px solid silver;
+	
+}
+div.userwrapper
+{
+	border:1px solid black;
+	height:30px;
+	width:30px;
+	margin:auto;
+	border-radius:5px;
+}
+img#imguserpic
+{
+	max-width: 100%;
+    max-height: 100%;
+}
+/*Time for some hover effects*/
+/*We will apply the hover effect the the lineage of the element also*/
+.tree li a:hover, .tree li a:hover+ul li a {
+	background: #c8e4f8; 
+	color: #000; 
+	border: 1px solid #94a0b4;
+}
+/*Connector styles on hover*/
+.tree li a:hover+ul li::after, 
+.tree li a:hover+ul li::before, 
+.tree li a:hover+ul::before, 
+.tree li a:hover+ul ul::before{
+	border-color:  #94a0b4;
+}
+
+/*Thats all. I hope you enjoyed it.
+Thanks :)*/
+#loader
+{
+	margin:auto;
+	height:100%;
+	position:fixed;
+	top:0;
+	background-color:white;
+	
+}
+#wrapper
+{
+	width:100px;
+	height:100px;
+	position:absolute;
+	left:calc(50% + 300px);
+	top:50%;
+	margin-top:-50px;
+	margin-left:-350px;
+	background:url('img/loader.gif');
+	background-repeat:no-repeat;
+}
+#testing
+{
+	border:50px;
+}
+
+div#leftwrapper
+{
+	z-index:2;
+	height:100%;
+	position:fixed;
+	top:0px;
+	width:300px;
+	background-color:#074f8e;
+}
+.searchfld
+{
+	float:left;
+}
+div#searchwrapper
+{
+	border:2px solid white;
+	height:25px;
+	margin:10px;
+}
+#find
+{
+	width:210px;
+	height:25px;
+	background:none;
+	border:none;
+	outline:none;
+	color:white;
+	text-indent:5px;
+}
+#findbtn
+{
+	float:right;
+	width:60px;
+	height:25px;
+}
+div#findlbl
+{
+	margin:10px;
+	font-family:helvetica;
+	font-size:14px;
+}
+div.searchfldimg
+{
+	background:url('img/search.png');
+	background-size:100% 100%;
+	height:25px;
+	width:25px;
+	float:right;
+	z-index:2;
+}
+div#searchcontainer
+{
+	margin-left:20px;
+	margin-right:20px;
+	padding-bottom:20px;
+	//border-bottom:1px solid white;
+}
+div#menu
+{
+	background:url('img/menu.png');
+	background-size:100% 100%;
+	height:50px;
+	width:50px;
+	float:left;
+}
+div#menu:hover
+{
+	cursor:pointer;
+}
+div#menulbl
+{
+	float:left;
+	line-height:50px;
+	font-family:"Segoe UI";
+	color:white;
+	font-size:20px;
+}
+div#menuwrapper
+{
+	height:50px;
+}
+div#keywordslbl
+{
+	//border-top:1px solid white;
+	//border-bottom:1px solid white;
+	margin:10px 20px 0 20px;
+	padding-left:10px;
+	height:*;
+	//margin-left:20px;
+	font-family:"Segoe UI";
+}
+div#result
+{
+	//border:1px solid white;
+	margin:10px 20px;
+	//height:20px
+}
+div#lblresult
+{
+	font-family:"Segoe UI";
+	border-bottom:1px solid white;
+	color:white;
+	text-indent:10px;
+}
+div#lblresult:hover
+{
+	background-color:#052b4d;
+	cursor:pointer;
+}
+div#lblresult:last-child
+{
+	border-bottom:none;
+}
+div.idnum
+{
+	color:silver;
+	font-family:"Segoe UI";
+	font-size:12px;
+}
+div#lblresult:first-child
+{
+	border-top:1px solid white;
+}
+div.lblname
+{
+	color:white;
+	font-family:"Segoe UI";
+}
+div#wrapperpyramid
+{
+
+	display:inline-block;
+	margin-left:auto;
+	margin-right:auto;
+	max-width:100%;
+	width:350px;
+	min-width:80px;
+	height:*;
+	
+}
+div#pyramidwrapper
+{
+	max-width:100%;
+	display:block;
+	margin:auto;
+
+}
+div#fuwrapper
+{
+	padding:20px;
+}
+div#uploadcol
+{
+	font-family:tahoma;
+}
+div#uploadcol input[type="file"]
+{
+	font-family:tahoma;
+}
+div#uploadcol:nth-last-child(1)
+{
+	
+}
+div#uploadcol input[type="submit"]
+{
+	height:40px;
+	width:100px;
+	margin-top:40px;
+	background-color:#024972;
+	border:1px solid #024972;
+	border-radius:5px;
+	color:white;
+	font-family:tahoma;
+}
+div#uploadcol input[type="submit"]:hover
+{
+	cursor:pointer;
+	transition-duration:1s;
+	background-color:white;
+	color:#024972;
+}
+span.uploaderror
+{
+	color:#fa554c;
+	font-style:italic;
+	font-size:12px;
+}
+table#pyramidtbl
+{
+	border-spacing:0;
+	margin:0px auto 0px auto;
+	width:calc(100% - 30px);
+	border:2px solid #ededed;
+}
+td.borderthick:not(:last-child)
+{
+	border-bottom:2px solid #ededed;
+	height:35px;
+	border-right:1px solid #ededed;
+	font-family:tahoma;
+	text-indent:10px;
+	font-weight:bold;
+	font-size:14px;
+}
+td.borderthick:last-child
+{
+	font-family:tahoma;
+	border-bottom:2px solid #ededed;
+	height:35px;
+	font-weight:bold;
+	font-size:14px;
+	text-indent:10px;
+}
+div#tblwrapper
+{
+	margin-top:50px;
+	padding-bottom:30px;
+}
+td.tblresult:not(:last-child)
+{
+	border-bottom:1px solid #ededed;
+	border-right:1px solid #ededed;
+	font-family:tahoma;
+	font-size:14px;
+	text-indent:10px;
+}
+td.tblresult:last-child
+{
+	border-bottom:1px solid #ededed;
+	font-family:tahoma;
+	font-size:14px;
+	text-indent:10px;
+}
+div#loadingwrap
+{
+	position:fixed;
+	height:100%;
+	width:100%;
+	background-color:silver;
+	top:0;
+	z-index:3;
+	opacity:0.6;
+	visibility:hidden;
+}
+
+div#walletcontent
+{
+	margin-top:140px;
+	width:100%;
+	float:left;
+}
+div#wcleft
+{
+
+	height:*;
+	float:left;
+	width:20%;
+	margin-left:20px;
+	background-color:white;
+}
+div#wcright
+{
+	height:*;
+	float:left;
+	width:calc(80% - 60px);
+	margin-left:20px;
+	background-color:white;
+
+}
+div#wcleftwrapper
+{
+	padding:40px 20px 40px 20px;
+	
+}
+select#forexconvert, select#forextype
+{
+	border:2px solid #ededed;
+	outline:none;
+	height:35px;
+	width:100%;
+	border-radius:7px;
+	margin-top:10px;
+	margin-bottom:5px;
+}
+select#forexconvert:focus,input[type="text"]#encashamount:focus
+{
+	transition-duration:0.5s;
+	box-shadow:0px 0px 5px 0px;
+}
+div#encashcol
+{
+	font-family:tahoma;
+	font-size:13px;
+	font-weight:100;
+}
+input[type="text"]#encashamount
+{
+	border:2px solid #ededed;
+	width:100%;
+	height:35px;
+	border-radius:7px;
+	outline:none;
+	margin-top:5px;
+}
+select#forextype
+{
+	margin-top:20px;
+}
+input[type="button"]#encashbtn
+{
+	border:2px solid #024972;
+	width:100%;
+	height:35px;
+	margin-top:20px;
+	background-color:#024972;
+	color:white;
+	border-radius:7px;
+	outline:none;
+}
+input[type="button"]#encashbtn:hover
+{
+	transition-duration:1s;
+	color:#024972;
+	background-color:white;
+}
+div#accountinfo select, div#accountinfo input[type="text"] 
+{
+	text-indent:10px;
+}
+div#wcrightwrapper
+{
+	padding:40px 20px 40px 20px;
+	font-family:tahoma;
+}
+div#wctitle
+{
+	font-size:12px;
+	font-style:italic;
+	color:#666666;
+}
+table#encashhistory
+{
+	width:100%;
+	border-spacing:0;
+	border:1px solid #dddddd;
+	color:#666666;
+}
+td.ehheader
+{
+	text-indent:10px;
+	font-weight:bold;
+	height:40px;
+	font-size:12px;
+	border-bottom: 2px solid #dddddd;
+}
+td.ehresult
+{
+	text-indent:10px;
+	height:40px;
+	font-size:12px;
+}
+div#wctblwrapper
+{
+	margin-top:5px;
+}
+tr.ehresulttr:not(:last-child) td.ehresult
+{
+	border-bottom:1px solid #dddddd;
+}
+td.ehresult:not(:last-child), td.ehheader:not(:last-child)
+{
+	border-right:1px solid #dddddd;
+}
+tr.ehresulttr:nth-child(even) td
+{
+	background-color:#f9f9f9;
+}
+input[type="button"].disable:hover
+{
+	cursor:not-allowed;
+}
+div.searchloader
+{
+	z-index:1;
+	margin-top:2px;
+	position:absolute;	
+	min-width:200px;
+	width:*;
+	height:*;
+	background-color:white;
+	box-shadow:0px 0px 2px 0px gray;
+	visibility:hidden;
+}
+div.slwrapper
+{
+	padding:10px;
+	
+}
+div#slreswrapper
+{
+	color:#a1a1a1;
+	font-family:tahoma;
+	font-size:12px;
+	height:30px;
+	line-height:30px;
+}
+div#slreswrapper:not(:last-child)
+{
+	border-bottom:1px solid #ededed;
+}
+div#slreswrapper:hover
+{
+	cursor:pointer;
+	color:white;
+	background-color:#009174!important;
+}
+span.slid
+{
+	font-weight:bold;
+	float:left;
+	
+}
+span.slname
+{
+	text-indent:10px;
+	float:left;
+}
+div.searchloaderhover{
+	background-color:#024972!important;
+	color:white!important;
+}
+
+@media all and (max-width:800px){
+	div#content
+	{
+		float:left;
+		padding:0;
+		margin:120px 0px 0px 0px;
+	}
+	div#leftcontent
+	{
+		width:calc(90% - 80px);
+		float:left;	
+		margin:0px 0px 0px 5%;
+		padding:40px;
+	}
+	div#rightcontent
+	{
+		float:left;
+		width:calc(90% - 80px);
+		padding:40px;
+		margin:20px 0px 20px 5%;
+		
+	}
+	div#wcleft
+	{
+		width:calc(90% - 80px);
+		padding:40px;
+		margin:0px 0px 0px 5%;
+		float:left;
+	}
+	div#wcright
+	{
+		width:calc(90% - 80px);
+		padding:40px;
+		margin:20px 0px 20px 5%;
+		float:left;
+	}
+	div#topcontent
+	{
+		width:90%;
+		margin:20px 0px 0px 5%;
+	}
+}

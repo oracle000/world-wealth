@@ -1,0 +1,51 @@
+body
+{
+	margin:0;
+	padding:0;
+}
+div#container
+{
+	height:100%;
+	width:100%;
+}
+div#header
+{
+	height:100px;
+}
+div#headerlinks
+{
+	border:1px solid black;
+	height:70px;
+	background-color:black;
+}
+div.hdrlinkwrapper
+{
+	width:600px;
+	margin-right:100px;
+	float:right;
+	height:70px;
+	
+}
+.syssetup,.sysusers,.businessusers,.cms
+{
+	display:inline-block;
+	color:white;
+	float:right;
+	width:100px;
+	height:70px;
+	line-height:70px;
+	font-family:"Segoe UI";
+	text-align:center;
+}
+div#headerfilters
+{
+	border:1px solid black;
+	height:40px;
+}
+div#leftwrapper
+{
+	position:fixed;
+	border:1px solid black;
+	width:200px;
+	height:calc(100% - 0px);
+}

@@ -1,0 +1,392 @@
+body
+{
+	padding:0;
+	margin:0;
+	width:100%;
+	height:100%;
+	background:url("img/sample2.jpg");
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+div#container
+{
+	height:100%;
+	width:100%;
+	min-height:1200px;
+	overflow-y:hidden;
+}
+div#header
+{
+	height:150px;
+	width:100%;
+	background-color:#5b6169;
+	position:fixed;
+	top:0px;
+	z-index:3;
+	color:white;
+	opacity:0.5;
+}
+div#headerwrap
+{
+	height:150px;
+	width:1200px;
+	margin:auto;
+	border-bottom:1px solid white;
+}
+div#rotator
+{
+	top:65px;
+	height:400px;
+	width:100%;
+	border-bottom:2px solid #a2c6d7;
+	position:fixed;
+	z-index:-1
+}
+div.webnamewrap
+{
+	float:left;
+	margin-top:25px;
+}
+div.webname
+{
+	font-size:25px;
+	font-family:arial;
+	padding:0px 0px 10px 40px;
+}
+div.hdrlinkswrap
+{
+	float:left;
+	margin-top:62px;
+	font-family:"Arial";
+	font-size:14px;
+	letter-spacing:2px;
+	width:800px;
+}
+div.home,div.aboutus,div.contactus,div.login
+{
+	float:right;
+	width:120px;
+	text-align:center;
+}
+div.home:hover,div.aboutus:hover,div.contactus:hover,div.login:hover
+{
+	cursor:pointer;
+	font-weight:bold;
+}
+div#connectwithus
+{
+	height:40px;
+	display:block;
+	width:100%;
+	margin-top:40px;
+}
+div.lblconnect
+{
+	width:200px;
+	float:left;
+	text-align:center;
+	font-size:30px;
+	font-family:"Arial Narrow";
+	color:gray;
+}
+div.line
+{
+	border:1px solid gray;
+	float:left;
+	margin-top:16px;
+	width:calc(300px - 10px);
+}
+div.connectwrapper
+{
+	width:800px;
+	margin:auto;
+	clear:both;
+	height:40px;
+}
+div#followuswrap
+{
+	position:relative;
+	z-index:3;
+	
+}
+div#socialnetwrap
+{
+	width:100%;
+	height:300px;
+	margin-top:50px;
+	position:relative;
+	z-index:3;
+}
+div.facebooklogo,div.twitterlogo,div.linkedinlogo
+{
+	float:left;
+	margin-left:50px;
+	margin-right:50px;
+}
+div.socialnetcon
+{
+	width:600px;
+	margin:auto;
+	height:105px;
+}
+div.socialnetdtlscon
+{
+	width:600px;
+	margin:auto;
+	height:180px;
+
+}
+div#allsocialnet
+{
+	z-index:1;
+	height:100%;
+	min-height:650px;
+	width:100%;
+	padding-top:20px;
+	top:200%;
+	position:relative;
+}
+div#allsocialnet:after{
+	position:absolute;
+	opacity:0.5;
+	content:'';
+	background-color:#FFFFFF;
+	width:100%;
+	height:100%;
+	z-index:2;
+	width:100%;
+	top:0%;
+}
+div.dtls
+{
+	line-height:25px;
+	font-family:helvetica;
+	float:left;
+	width:calc(200px - 10px);
+	text-align:center;
+	padding-left:5px;
+	padding-right:5px;
+}
+div#aboutuswrap
+{
+	height:100%;
+	min-height:650px;
+	background-color:#FFFFFF;
+	width:100%;
+	position:relative;
+	margin-top:50%;
+	z-index:2;
+}
+div#aboutusleft
+{
+	border:1px solid white;
+	width:300px;
+	height:600px;
+	float:left;
+}
+div.topline
+{
+	margin-top:110px;
+	margin-bottom:20px;
+	border:6px solid #fe5607;
+	margin-left:5px;
+	margin-right:5px;
+}
+div.aboutuslbl
+{
+	font-family:"Bookman Oldstyle";
+	color:#3a3a3a;
+	font-size:100px;
+	text-align:center;
+}
+div#aboutusright
+{
+	margin-left:50px;
+	float:left;
+	width:790px;
+	height:600px;
+}
+div#aboutuscon
+{
+	width:1150px;
+	margin:auto;
+}
+div.topmargin
+{
+	margin-top:100px;
+	margin-bottom:40px;
+}
+div.descwrapper
+{
+	height:420px;
+}
+div.topdescwrap,div.botdescwrap
+{
+	width:100%;
+	height:50%;
+}
+div.topleftdesc
+{
+	width:50%;
+	float:left;
+	height:100%;	
+}
+div.toprightdesc
+{
+	width:50%;
+	display:inline-block;
+	height:100%;	
+}
+div.rightborder
+{
+	border-bottom:10px solid transparent;
+	border-left:10px solid #fe5607;
+	border-top:10px solid transparent;
+	float:left;
+	margin-top:2.5px;
+}
+div.topdesc
+{
+	float:left;
+	width:calc(100% - 40px);
+	font-family:"Times New Roman";
+	margin-left:10px;
+	margin-right:20px;
+}
+label.wwadesc
+{
+	font-family:arial;
+	font-size:16px;
+	line-height:20px;
+}
+div#content
+{
+	width:100%;
+	height:calc(100% - 150px);
+	position:fixed;
+	top:0;
+	z-index:1;
+	margin-top:150px;
+}
+div#content:after
+{
+	margin-top:150px;
+	top:0;
+	opacity:0.5;
+	content:'';
+	z-index:-1;
+	position:fixed;
+	background-color:#5b6169;
+	width:100%;
+	height:calc(100% - 150px);
+}
+div#missionvission
+{
+	width:1200px;
+	margin:auto;
+	height:100%;
+	font-family:"Century";
+	font-size:70px;
+	color:white;
+}
+div.mvwrap
+{
+	margin-left:40px;
+}
+div#parallaxcon
+{
+	clear:both;
+	height:*
+}
+div#logincon
+{
+	height:100%;
+	min-height:700px;
+	width:100%;
+	position:relative;
+	z-index:1;
+}
+div#loginwrap
+{
+	height:100%;
+	min-height:700px;
+	width:1200px;
+	margin:auto;
+}
+div#loginleft
+{
+	width:calc(50% - 50px);
+	height:100%;
+	float:left;
+	text-align:right;
+	line-height:300px;
+	font-family:"Segoe UI";
+	color:white;
+	font-size:50px;
+	padding-right:50px;
+}
+div#loginright
+{
+	float:left;
+	width:50%;
+	height:100%;
+}
+div#loginfld
+{
+	width:800px;
+	height:300px;
+	margin:auto;
+	margin-top:200px;
+}
+div#logindtlswrap
+{
+	height:120px;
+	margin-top:90px;
+}
+#username,#password
+{
+	height:30px;
+	width:246px;
+	background:none;
+	border:2px solid white;
+	border-radius:5px;
+	text-indent:10px;
+	color:white;
+}
+#fakepassword
+{
+	height:30px;
+	width:246px;
+	background:none;
+	border:2px solid white;
+	border-radius:5px;
+	text-indent:10px;
+	color:white;
+}
+#password
+{
+	display:none;
+}
+div.usernamewrap,div.passwordwrap,div.buttonwrap
+{
+	width:250px;
+	margin-bottom:9px;
+}
+#login
+{
+	width:100%;
+	height:30px;
+}
+.signup,.forgot
+{
+	color:white;
+	font-family:helvetica;
+	font-size:12px;
+	margin-bottom:3px;
+}
+a{
+	text-decoration:none;
+	color:skyblue;
+	font-weight:500;
+}

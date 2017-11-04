@@ -1,0 +1,563 @@
+body
+{
+
+	padding:0;
+	margin:0;
+	width:100%;
+	height:100%;
+}
+div#containerty
+{
+	height:600px;
+	width:100%;
+}
+div#wrapperty
+{
+	height:400px;
+	width:700px;
+	margin:auto;
+	margin-top:20px;
+}
+div.tytitle
+{
+	padding-top:50px;
+	padding-bottom:20px;
+	text-align:center;
+	font-family:"Segoe UI";
+	font-size:40px;
+	font-weight:100;
+}
+div.tydesc
+{
+	text-align:center;
+	font-family:"Segoe UI";
+	font-size:20px;
+	font-weight:100;
+}
+div.tydesc1
+{
+	text-align:center;
+	font-family:"Segoe UI";
+	font-size:16px;
+	font-weight:100;
+}
+div.tydesc2
+{
+	text-align:center;
+	font-family:"Segoe UI";
+	font-size:16px;
+	font-weight:100;
+}
+div#footer
+{
+	border:1px solid black;
+	bottom:0px;
+}
+div.webnamereg
+{
+	font-size:25px;
+	font-family:arial;
+	padding:0px 50px 0px 0px;
+	float:left;
+}
+div#headerwrapreg
+{
+	color:#000000;
+	height:100px;
+	border:0;
+}
+div#headerreg
+{
+	background-color:#ffffff;
+	height:70px;
+	
+}
+div.webnamewrapreg
+{
+	float:left;
+	margin-top:10px;
+	margin-left:40px;
+}
+div.headerlinkswrapreg
+{
+	margin-top:40px;
+}
+div#containerreg
+{
+	width:100%;
+	height:100%;
+}
+div.hdrlinkswrapreg
+{
+	float:left;
+	margin-top:20px;
+	font-family:"Arial";
+	font-size:14px;
+	letter-spacing:2px;
+	width:800px;
+	
+}
+div#headerwrapreg
+{
+	height:102px;
+	width:1200px;
+	margin:auto;
+}
+div.home,div.aboutus,div.contactus,div.login
+{
+	float:right;
+	width:120px;
+	text-align:center;
+	
+}
+div.home:hover,div.aboutus:hover,div.contactus:hover,div.login:hover
+{
+	cursor:pointer;
+	font-weight:bold;
+}
+.hdrlinkswrapreg a
+{
+	text-decoration:none;
+	color:#074f8e;
+}
+div.profile,div.settings,div.logout
+{
+	float:right;
+	width:100px;
+	text-align:center;
+	font-weight:bold;
+	color:#074f8e;
+	margin-left:5px;
+	margin-right:5px;
+	height:30px;
+	line-height:30px;
+	font-family:helvetica;
+	font-size:14px;
+}
+div.profile:hover,div.settings:hover,div.logout:hover
+{
+	cursor:pointer;
+	border-bottom:5px solid #074f8e;
+}
+div#contenthome
+{
+	height:500px;
+	width:100%;
+	padding-top:50px;
+}
+div#wrapperhome
+{
+	width:1200px;
+	margin:auto;
+	height:100%;
+}
+div#picprofile
+{
+	border:1px solid black;
+	height:100px;
+	width:100px;
+	margin:auto;
+	border-radius:50px;
+}
+div#equivamount
+{
+	text-align:center;
+	font-family:"Segoe UI";
+	font-size:20px;
+	font-weight:100;
+}
+div#fullname
+{
+	text-align:center;
+	font-family:"Segoe UI";
+	font-size:36px;
+	font-weight:400;
+}
+div#serviceincome
+{
+	text-align:center;
+	font-family:"Segoe UI";
+	font-size:16px;
+	font-weight:100;
+}
+div.lbltxtfld
+{
+	display:inline-block;
+}
+div#lbldesc
+{
+	text-align:center;
+	font-family:"Segoe UI";
+	font-size:16px;
+	font-weight:100;
+}
+#summary,#lvldtls
+{
+	border:none;
+	background-color:white;
+	outline:none;
+	width:120px;
+	height:40px;
+	font-weight:500;
+	font-family:"Segoe UI";
+	border-radius:15px;
+	box-shadow:0px 0px 10px -5px;
+}
+#summary:hover,#lvldtls:hover
+{
+	box-shadow:0px 0px 10px -2px;
+	background-color:black;
+	color:white;
+	cursor:pointer;
+}
+#btnsummary,#btnlvldtls
+{
+	display:inline-block;
+}
+#summary
+{
+	float:left;
+}
+#btnlvldtls
+{
+	float:right;
+}
+div#btnwrapper
+{
+	height:50px;
+	margin:auto;
+	width:260px;
+}
+div#buttons
+{
+	margin-top:20px;
+}
+div#profilesettings
+{
+	width:100%;
+	height:100%;
+}
+div#lblprosettings
+{
+	margin-top:40px;
+	text-align:center;
+	font-size:30px;
+	font-family:"Segoe UI";
+	font-weight:400;
+}
+div#fldwrapper
+{
+	width:800px;
+	height:500px;
+	margin:auto;
+	font-family:"Segoe UI";
+}
+div.inputwrapper
+{
+	margin-bottom:20px;
+	
+}
+div.lblinput
+{
+	width:calc(200px - 30px);
+	float:left;
+	font-family:"Segoe UI";
+	text-align:right;
+	margin-right:30px;
+	line-height:40px;
+	height:40px;
+	color:#8c8c8c;
+}
+#firstname,#lastname,#email,#contactno,#address,#bdate,#oldpass,#retypepass,#newpass
+{
+	width:500px;
+	height:40px;
+	text-indent:10px;
+	color:gray;
+}
+#gender
+{
+	width:100px;
+	height:40px;
+	text-indent:10px;
+	color:gray;
+}
+#month,#day
+{
+	height:40px;
+	width:80px;
+	text-indent:10px;
+	color:gray;
+}
+#year
+{
+	height:34px;
+	width:100px;
+	text-indent:10px;
+	color:gray;
+}
+#saveregdetails,#savepass
+{
+	height:40px;
+	width:100px;
+	background-color:skyblue;
+	outline:none;
+	border:2px solid white;
+	color:black;
+}
+div#tbldetails
+{
+	width:500px;
+	margin:auto;
+	height:200px;
+}
+div#summarydtls
+{
+	border:1px solid silver;
+	width:60%;
+	height:100px;
+	margin:auto;
+	display:none;
+}
+div.leftsum
+{
+	float:left;
+	width:50%;
+	text-align:center;
+	font-family:"Segoe UI";
+	font-weight:100px;
+	font-size:20px;
+	height:40px;
+	line-height:40px;
+	background-color:silver;
+}
+div.rightsum
+{
+	background-color:silver;
+	float:left;
+	width:50%;
+	text-align:center;
+	font-family:"Segoe UI";
+	font-weight:100px;
+	font-size:20px;
+	height:40px;
+	line-height:40px;
+}
+div.countsponsor
+{
+	float:left;
+	width:50%;
+	text-align:center;
+	font-size:30px;
+	font-family:"Segoe UI";
+}
+div.countupline
+{
+	float:left;
+	width:50%;
+	text-align:center;
+	font-size:30px;
+	font-family:"Segoe UI";
+}
+div#tbllvldtls
+{
+	font-size:30px;
+	font-family:"Segoe UI";
+	text-align:center;
+	font-weight:100px;
+	display:none;
+}
+div#passwordsettings
+{
+	width:800px;
+	margin:auto;
+}
+div.lblpassset
+{
+	font-family:"Segoe UI";
+	font-size:30px;
+	font-weight:100;
+	height:50px;
+	text-align:center;
+	margin-top:20px;
+}
+div#contentprofile
+{
+	width:100%;
+	margin:auto;
+	height:700px;
+	font-family:"Segoe UI";
+}
+div#wrapperwcmsg
+{
+	width:1115px;
+	margin:auto;
+	border-bottom:1px solid silver;
+	padding-bottom:20px;
+	font-family:calibri;
+	padding-top:15px;
+	font-size:14px;
+}
+div#wrapperwcmsg strong
+{
+	font-weight:550;
+}
+div#summarywrapper
+{
+	height:400px;
+}
+div#memberlinks
+{
+	background-color:#202020;
+	height:30px;
+}
+div#memberwrapper
+{
+	width:1120px;
+	margin:auto;
+}
+div#memberwrapper a
+{
+	text-decoration:none;
+	//color:#074f8e;
+	color:white;
+}
+div#summarywrapper
+{
+	width:1120px;
+	margin:auto;
+	padding-top:10px;
+}
+div#summarycontainer
+{
+	
+}
+div#icon
+{
+	height:40px;
+}
+div#summarytext
+{
+	margin-left:40px;
+}
+div#detailedcontainer
+{
+	padding-top:20px;
+}
+table#detailedlvldtls
+{
+	border-spacing:0;
+	width:700px;
+}
+table#detailedlvldtls th
+{
+	text-align:left;
+}
+table tr#tblresult
+{
+	font-size:14px;
+	color:gray;
+}
+
+div#footer
+{
+	height:300px;
+	background-color:#111111;
+}
+div#footercontainer
+{
+	width:1000px;
+	margin:auto;
+	color:white;
+	font-family:"Segoe UI";
+	padding-top:50px;
+}
+div.footerlinks
+{
+	height:40px;
+	line-height:40px;
+	font-weight:100;
+	font-size:14px;
+	text-indent:20px;
+	color:#c6c6c6;
+}
+div.leftfooter,div.middlefooter,div.rightfooter
+{
+	float:left;
+	width:33.33%;
+}
+div.footerlinks1
+{
+	height:40px;
+	line-height:40px;
+	font-weight:100;
+	font-size:14px;
+	color:#c6c6c6;
+}
+img.callico,img.msgico,img.homeico
+{
+	padding-right:10px;
+	margin-top:5px;
+}
+div#followuscontainer
+{
+	width:1000px;
+	margin:auto;
+	height:100%;
+}
+div#fuleft,div#fumid,div#furight
+{
+	float:left;
+	width:50%;
+	height:100%;
+}
+div#nxtlevelbar
+{
+	border:1px solid black;
+	width:200px;
+	display:inline-block;
+	height:10px;
+	margin-top:3px;
+	text-align:center;
+}
+div#levelbarcon
+{
+	height:17px;
+}
+#tblresult a
+{
+	text-decoration:none;
+	color:black;
+}
+#tblresult a:hover
+{
+	color:blue;
+}
+#tblresult:hover
+{
+	background-color:lightblue;
+	cursor:pointer;
+}
+#tblresult:nth-child(odd)
+{
+	background-color:#e2f5ff;
+}
+#tblresult:nth-child(odd):hover
+{
+	background-color:lightblue;
+	cursor:pointer;
+}
+#bankname,#accountno
+{
+	height:35px;
+	color:gray;
+	text-indent:10px;
+}
+#bankname
+{
+	width:150px;
+}
+#accountno
+{
+	width:345px;
+}

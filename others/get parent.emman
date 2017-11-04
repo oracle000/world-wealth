@@ -1,0 +1,4 @@
+SELECT a.FK_users as parent
+FROM regdetails a
+INNER JOIN regdetails b ON b.uplineid = a.FK_users
+WHERE b.FK_users = '10000000013'

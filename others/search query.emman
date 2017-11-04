@@ -1,0 +1,5 @@
+SELECT PK_userdata, firstname, lastname, CONCAT(firstname,' ',lastname) as fullname FROM userdata
+WHERE 
+	CONCAT(firstname,' ',lastname) LIKE '%julie%' AND 
+        CONCAT(lastname,', ',firstname) LIKE '%rico, julie%' AND
+        CONCAT(lastname,' ',firstname) LIKE '%%'

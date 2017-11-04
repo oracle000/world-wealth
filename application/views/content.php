@@ -6,7 +6,28 @@
 					</div>
 				</div>
 			</div>
-			<div id="followus">
+			<div class="who-we-are">
+				<div>
+					<p>Who we are</p>
+				</div>	
+				<div>
+					<p>is a fast growing UK-based company founded on the idea 
+						of utilizing sales strategies in properties and adopting 
+						the essential principles of a network enterprise to create 
+						a lucrative business which end product is –”OUR FUTURE”!</p>
+				</div>
+				<div>
+					<p>It is an independent company which is deemed in using the 
+						potentials of members to create a whirlpool that shall 
+						steer the calm waters of real estate industry by converting 
+						investment and hardwork into a vessel which shall sail 
+						past their expectations of entrepreneurial gains, other 
+						networking business may offer.</p>
+				</div>
+				
+
+			</div>
+			<div id="followus mission-vision">
 				<div id="followuscontainer">
 					<div id="fuleft">
 						<div id="missionwrap">
@@ -26,6 +47,15 @@
 					</div>
 				</div>
 			</div>
+
+			<div class="signup-benefits">
+				<p>Sign-Up Benefits</p>
+			</div>	
+
+			<div class="faststart-registration">
+				<p>FastStart Registration</p>
+			</div>	
+
 			<div id="whoweare">
 				<div id="wwacontainer">
 					<div id="wwatitle">Who We Are ?</div>

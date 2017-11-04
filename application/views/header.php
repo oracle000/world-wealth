@@ -8,6 +8,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/index.css" />
 	<!-- <link rel="stylesheet" type="text/css" href="css/index.css" /> -->
 	<link rel="stylesheet" type="text/css" href="css/header.css" />
+	<link rel="stylesheet" type="text/css" href="css/section-panel.css" />
 	<script type="text/javascript" src="<?php echo base_url(); ?>js/jquery.js"></script>
 	<!--<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>-->
 	<script type="text/javascript">
@@ -215,8 +216,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				
 				<span class="clear"></span>
 				<div class="sub-header ">
-					<div ><a href="" class="navigate-item-inside">Mission</a></div>
-					<div ><a href="" class="navigate-item-inside">Vision</a></div>
+					<div ><a href="" class="navigate-item-inside">Who we are</a></div>
+					<div ><a href="" class="navigate-item-inside">Mission and Vision</a></div>					
 					<div ><a href="" class="navigate-item-inside">Signing-Up Benefits</a></div>
 					<div ><a href="" class="navigate-item-inside">Fast-Start Registration</a></div>				
 				</div>

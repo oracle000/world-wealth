@@ -194,15 +194,31 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			</div>
 		</div>
 		<div id="header">
+			<div class="outside-navigation">
+				<div class="hdrlinks">
+					<div class="out-nav-linkA">
+					<div class="lbllinks"><a href="<?php echo base_url(); ?>">Home</a></div>
+						<div class="lbllinks"><a href="<?php echo base_url(); ?>task/about">About</a></div>
+						<div class="lbllinks"><a href="<?php echo base_url(); ?>task/contact">Contact</a></div>
+					</div>
+					<div class="out-nav-linkB">
+						<div class="lbllinks"><a href="<?php echo base_url(); ?>task/login">Login</a></div>
+						<span class="divider">|</span>
+						<div class="lbllinks"><a href="<?php echo base_url(); ?>task/register">SIGN UP</a></div>					
+					</div>
+					<span class="clear"></span>
+				</div>
+			</div>
 			<div id="hdrcontainer">
 				<div class="menu"><img src="<?php echo base_url(); ?>css/img/menu1.png"></div>
 				<div class="companylogo"><img src="<?php echo base_url(); ?>css/img/wwicon2.jpg" /></div>
-				<div class="hdrlinks">
-					<div class="lbllinks"><a href="<?php echo base_url(); ?>task/register"><input id="btnsignup" type="button" value="SIGN UP"/></a></div>
-					<div class="lbllinks"><a href="<?php echo base_url(); ?>">HOME</a></div>
-					<div class="lbllinks"><a href="<?php echo base_url(); ?>task/contact">CONTACT</a></div>
-					<div class="lbllinks"><a href="<?php echo base_url(); ?>task/about">ABOUT</a></div>
-					<div class="lbllinks"><a href="<?php echo base_url(); ?>task/login">LOGIN</a></div>
+				
+				<span class="clear"></span>
+				<div class="sub-header ">
+					<div ><a href="" class="navigate-item-inside">Mission</a></div>
+					<div ><a href="" class="navigate-item-inside">Vision</a></div>
+					<div ><a href="" class="navigate-item-inside">Signing-Up Benefits</a></div>
+					<div ><a href="" class="navigate-item-inside">Fast-Start Registration</a></div>				
 				</div>
 			</div>
 		</div>

@@ -23,6 +23,9 @@ body::-webkit-scrollbar-thumb {
   background-color: darkgrey;
   outline: 1px solid slategrey;
 }
+span.clear {
+	clear: both;
+}
 div#container
 {
 	height:100%;
@@ -42,10 +45,10 @@ div#header
 }
 div#content
 {
-	position:absolute;
+	/* position:absolute;
 	width:100%;
-	height:100%;
-	margin-top:70px;
+	height:100%; */
+	margin-top: 100px;
 }
 div#companypic
 {
@@ -65,35 +68,40 @@ div#followus
 div.companylogo
 {
 	height:70px;
-	float:left;
+	/* float:left; */
 	
 }
 div.companylogo img
 {
-	max-height:100%;
-	max-width:100%;
-	margin:10px 0px 0px 50px;
+	max-height:80%;
+	max-width:80%;
+	margin: 10px 0px 0px 50px;
 }
 div#hdrcontainer
 {
+	position: relative;
+	display: flex;
 	margin:auto;
 }
 div.lbllinks
-{
-	float:right;
-	width:100px;
+{	
+	/* float: right; */
+	/* width:100px; */
+	margin: 0 10px;
 }
 div.lbllinks:hover
 {
 	cursor:pointer;
 }
 div.hdrlinks
-{
+{	
+	align-items: center;
+	display: flex;
+    height: 100%;
+    justify-content: space-around;
 	transition-duration:1s;
 	margin-right:50px;
-	float:right;
-	height:100px;
-	line-height:100px;
+	float:right;	
 	color:#8c8c8c;
 	font-family:"Segoe UI";
 }
@@ -360,8 +368,7 @@ div.seconddesc
 	background-color:yellowgreen;
 	position:relative;
 	border-radius:15px;
-	line-height:30px;
-	font-family:"Segoe UI";
+	line-height:30px;	
 }
 div.seconddesc:after
 {
@@ -378,7 +385,7 @@ div.seconddesc:after
 div.lbllinks a
 {
 	text-decoration:none;
-	color:#8c8c8c;
+	color:#fff;
 }
 div#contactus
 {
@@ -949,6 +956,12 @@ div.lmrow
 	{
 		height:*;
 	}
+
+	div.sub-header  {
+		display: none !important;
+		
+	}
+	
 	div#msgalert
 	{
 		margin-left:20px;
@@ -1071,6 +1084,10 @@ div.lmrow
 }
 @media all and (max-width:320px)
 {
+	div.sub-header  {
+		display: none !important;
+		
+	}
 	div#header{
 		background-color: #ebf0f6;
 		height:80px;

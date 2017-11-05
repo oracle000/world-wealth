@@ -11,6 +11,32 @@ div#header div.outside-navigation {
     width: 100%;
     height: 30px;
     box-shadow: -1px 2px 5px rgba(0,0,0,0.7);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+div.outside-container {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    margin-left: 50px;
+}
+
+div.outside-info {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin-right: 10px;
+}
+div.outside-info .fa {
+    font-size: 20px;
+    margin-right: 5px;
+}
+div.outside-info .fa-envelope {
+    font-size: 15px;
+}
+div.outside-info p {
+    margin: 0;  
 }
 
 i.icon {
@@ -37,7 +63,9 @@ a.navigate-item-inside {
     font-family:"Segoe UI";
     margin: 0 10px;
     padding-bottom : 5px;    
-    border-bottom: none;
+    border-bottom: 2px solid transparent;
+    transition: all .5s;
+
 }
 a.navigate-item-inside:hover {
     border-bottom: 2px solid #333;

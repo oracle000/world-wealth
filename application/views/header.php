@@ -215,9 +215,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		</div>
 		<div id="header">
 			<div class="outside-navigation">
+				<div class="outside-container">
+					<div class="outside-info">
+						<i class="fa fa-mobile" aria-hidden="true"></i>	<p>+639175340308</p>					
+					</div>
+					<div class="outside-info">
+						<i class="fa fa-envelope" aria-hidden="true"></i><p>customerservice@worldwealth.com</p>
+					</div>
+				</div>
 				<div class="hdrlinks">
 					<div class="out-nav-linkA">
-					<div class="lbllinks"><i class="fa fa-home icon" aria-hidden="true"></i><a href="<?php echo base_url(); ?>">Home</a></div>
+						<div class="lbllinks"><i class="fa fa-home icon" aria-hidden="true"></i><a href="<?php echo base_url(); ?>">Home</a></div>
 						<div class="lbllinks"><i class="fa fa-user icon" aria-hidden="true"></i><a href="<?php echo base_url(); ?>task/about">About</a></div>
 						<div class="lbllinks"><i class="fa fa-phone icon" aria-hidden="true"></i><a href="<?php echo base_url(); ?>task/contact">Contact</a></div>
 					</div>

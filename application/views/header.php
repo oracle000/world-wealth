@@ -148,11 +148,29 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					$(".leftmenu").css('opacity','1');
 				}
 			});
-			$("body").swiperight(function(){
-				$("div.menu").click();
-			});
-			$("body").swipeleft(function(){
-				$("div.menu").click();
+			// $("body").swiperight(function(){
+			// 	$("div.menu").click();
+			// });
+			// $("body").swipeleft(function(){
+			// 	$("div.menu").click();
+			// });
+
+
+
+			// smooth scrolling
+			$(function() {
+				$('a[href*="#"]:not([href="#"])').click(function() {
+					if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+					var target = $(this.hash);
+					target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+					if (target.length) {
+						$('html, body').animate({
+						scrollTop: target.offset().top
+						}, 1000);
+						return false;
+					}
+					}
+				});
 			});
 			
 		});
@@ -216,10 +234,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				
 				<span class="clear"></span>
 				<div class="sub-header ">
-					<div ><a href="" class="navigate-item-inside">Who we are</a></div>
-					<div ><a href="" class="navigate-item-inside">Mission and Vision</a></div>					
-					<div ><a href="" class="navigate-item-inside">Signing-Up Benefits</a></div>
-					<div ><a href="" class="navigate-item-inside">Fast-Start Registration</a></div>				
+					<div ><a href="#who-we-are" class="navigate-item-inside">Who we are</a></div>
+					<div ><a href="#followus" class="navigate-item-inside">Mission and Vision</a></div>					
+					<div ><a href="#signup-benefits" class="navigate-item-inside">Sign-Up Benefits</a></div>
+					<div ><a href="#faststart-registration" class="navigate-item-inside">Fast-Start Registration</a></div>				
 				</div>
 			</div>
 		</div>

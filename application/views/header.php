@@ -10,6 +10,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<link rel="stylesheet" type="text/css" href="css/header.css" />
 	<link rel="stylesheet" type="text/css" href="css/section-panel.css" />
 	<script type="text/javascript" src="<?php echo base_url(); ?>js/jquery.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<!--<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>-->
 	<script type="text/javascript">
 		$(document).ready(function(){
@@ -216,14 +217,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<div class="outside-navigation">
 				<div class="hdrlinks">
 					<div class="out-nav-linkA">
-					<div class="lbllinks"><a href="<?php echo base_url(); ?>">Home</a></div>
-						<div class="lbllinks"><a href="<?php echo base_url(); ?>task/about">About</a></div>
-						<div class="lbllinks"><a href="<?php echo base_url(); ?>task/contact">Contact</a></div>
+					<div class="lbllinks"><i class="fa fa-home icon" aria-hidden="true"></i><a href="<?php echo base_url(); ?>">Home</a></div>
+						<div class="lbllinks"><i class="fa fa-user icon" aria-hidden="true"></i><a href="<?php echo base_url(); ?>task/about">About</a></div>
+						<div class="lbllinks"><i class="fa fa-phone icon" aria-hidden="true"></i><a href="<?php echo base_url(); ?>task/contact">Contact</a></div>
 					</div>
 					<div class="out-nav-linkB">
-						<div class="lbllinks"><a href="<?php echo base_url(); ?>task/login">Login</a></div>
+						<div class="lbllinks"><i class="fa fa-sign-in icon" aria-hidden="true"></i><a href="<?php echo base_url(); ?>task/login">Login</a></div>
 						<span class="divider">|</span>
-						<div class="lbllinks"><a href="<?php echo base_url(); ?>task/register">SIGN UP</a></div>					
+						<div class="lbllinks"><i class="fa fa-user-plus icon" aria-hidden="true"></i><a href="<?php echo base_url(); ?>task/register">SIGN UP</a></div>					
 					</div>
 					<span class="clear"></span>
 				</div>

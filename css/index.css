@@ -245,9 +245,12 @@ div#furight
 }
 div#missionwrap
 {
-	width:90%;
-	margin:5px auto;
-	padding:20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 90%;
+	padding: 0 30px;
+	margin-top: 40px;
 }
 div#logoico
 {
@@ -260,11 +263,12 @@ div#lbltitle
 	font-family:"Segoe UI";
 	text-align:center;
 	font-size: 25px;
-	margin:20px 0 20px 0;
+	margin:0px 0 20px 0;
 	font-weight: 600;
 }
 div#lbldesc
 {
+	font-weight: 600;
 	font-family:"Segoe UI";
 	text-align:center;
 }

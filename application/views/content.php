@@ -33,7 +33,7 @@
 				<div id="followuscontainer">
 					<div id="fuleft">
 						<div id="missionwrap">
-							<div id="logoico"><img src="<?php echo base_url(); ?>css/img/flag.png" style="width:80px;" /></div>
+							<i class="fa fa-flag fa-2x" aria-hidden="true" ></i>
 							<div id="lbltitle">MISSION</div>
 							<div id="lbldesc">To provide a leeway for income-driven individuals in reaching their 
 							potentials by becoming trained real estate entrepreneurs.  Thus, to deliver profits 
@@ -43,7 +43,7 @@
 					</div>
 					<div id="furight">
 						<div id="missionwrap">
-							<div id="logoico"><img src="<?php echo base_url(); ?>css/img/eye.png" style="width:80px;" /></div>
+							<i class="fa fa-eye fa-2x" aria-hidden="true"></i>
 							<div id="lbltitle">VISION</div>
 							<div id="lbldesc">Our company’s vision is to become a dominant player in the real state 
 							business which well-trained members are at their best in contributing profits through 
@@ -77,84 +77,61 @@
 			</div>	
 
 			<div class="faststart-registration" id="faststart-registration">
-				<p>FastStart Registration</p>
+				<p class="fsr-title">FAST-START REGISTRATION</p>
 				<ul>
 					<li>
 						<div>
 							<p>UNILEVEL PLAN</p>
-							<p>pays down 1 up to 0 levels</p>
+							<p>- Pays down 1 up to 0 levels</p>
 						</div>					
 					</li>
 					<li>
 						<div>
 							<p>INFINITY COMPENSATION</p>
-							<p>0.1% from 10th level up to infinity</p>
+							<p>- 0.1% from 10th level up to infinity</p>
 						</div>					
 					</li>
 					<li>
 						<div>
 							<p>GLOBAL SHARE POOL</p>
-							<p>infinity share from the company's profit</p>
+							<p>- Infinity share from the company's profit</p>
 						</div>					
 					</li>
 					<li>
 						<div>
 							<p>PROPERTY BONUS</p>
-							<p>earn 2% commission from property allocated to yourself</p>
+							<p>- Earn 2% commission from property allocated to yourself</p>
 						</div>					
 					</li>
 					<li>
 						<div>
 							<p>CAR BONUS</p>
-							<p>Start care allowance when you reached Group Executive</p>
+							<p>- Start care allowance when you reached Group Executive</p>
 						</div>					
 					</li>
 					<li>
 						<div>
 							<p>CASH ALLOWANCE</p>
-							<p>From Php 1,000 - 100,000 from executive level per month</p>
+							<p>- From Php 1,000 - 100,000 from executive level per month</p>
 						</div>					
 					</li>
 					<li>
 						<div>
 							<p>CHARITY FUND</p>
-							<p>From Php 500 - 100,000 everytime you are promoted to the next level</p>
+							<p>- From Php 500 - 100,000 everytime you are promoted to the next level</p>
 						</div>					
 					</li>
 					<li>
 						<div>
 							<p>HOLIDAY PACKAGES</p>
-							<p>From Php 15,000 - 500,000 everytime you are promoted to the next level</p>
+							<p>- From Php 15,000 - 500,000 everytime you are promoted to the next level</p>
 						</div>					
 					</li>
 					<li>
 						<div>
 							<p>PROPERTY INVESTMENT FUND</p>
-							
+							<p></p>
 						</div>					
-					</li>
-					
+					</li>			
 				</ul>
-
-			</div>	
-
-			<div id="whoweare">
-				<div id="wwacontainer">
-					<div id="wwatitle">Who We Are ?</div>
-					<div id="wwadesccon">
-						<!--
-						<div id="wwadesc">
-							<div id="wwadescfirst">
-								<div class="firstdesc">
-									<div class='lbldescwwa'>
-										<div class="wwadesctitle">Enlightened Entrepreneurs</div>
-										<div class="wwadescsubtitle">For more than profit. </div>
-										<div>A propery education company to help individuals and families to own a property as well as to become financially independent through education, leadership and mentorship</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						-->
-					</div>
-				</div>
-			</div>
+			</div>			

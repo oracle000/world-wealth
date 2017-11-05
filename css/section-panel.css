@@ -1,7 +1,6 @@
 div#who-we-are,
 div#followus,
-div#signup-benefits,
-div#faststart-registration {
+div#signup-benefits {
     height: 100vh;
     padding-top: 100px;
 }
@@ -20,6 +19,7 @@ div#who-we-are {
 div.wwr-firstContent,
 div.wwr-secondContent {
     width: 500px;
+    font-weight: 600;
 }
 
 div#who-we-are .wwr-title {
@@ -63,6 +63,49 @@ div#followuscontainer {
 }
 
 /*  SIGNUP BENEFITS */
+
+div#signup-benefits {
+    background-color: #f9fdff;
+}
+
+div#signup-benefits li{
+    font-weight: 600;  
+}
 div#signup-benefits .sb-title {
     font-size: 25px;
+    font-weight: 600;
+}
+
+/* FAST START REGISTRATION */
+div.faststart-registration {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #3f454a;
+    color: #fff;
+    padding: 100px 0 30px 0;
+}
+p.fsr-title {
+    font-size: 25px;
+    font-weight: 600;
+}
+div.faststart-registration ul {
+    width: 55%;
+}
+
+div.faststart-registration li {
+    position: relative;
+}
+div.faststart-registration li div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+}
+div.faststart-registration li div p {
+    margin: 0;
+}
+div.faststart-registration li div p:first-child {
+    font-weight: 600;
+    margin-right: 10px;
 }

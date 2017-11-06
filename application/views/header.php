@@ -7,8 +7,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/index.css" />
 	<!-- <link rel="stylesheet" type="text/css" href="css/index.css" /> -->
-	<link rel="stylesheet" type="text/css" href="css/header.css" />
-	<link rel="stylesheet" type="text/css" href="css/section-panel.css" />
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/header.css" />
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/section-panel.css" />
 	<script type="text/javascript" src="<?php echo base_url(); ?>js/jquery.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<!--<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>-->

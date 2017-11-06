@@ -9,7 +9,7 @@ div#signup-benefits {
 /*  WHO WE ARE */
 
 div#who-we-are {
-    background-color: #f9fdff;
+    background-color: #ebf0f6;
     display: flex;
     flex-direction : column;
     align-items : center;
@@ -34,6 +34,17 @@ div#signup-benefits {
     flex-direction: column;
 }
 
+div.wwr-cont { 
+    display: flex;
+}
+
+img.wwr {
+    width: 80%;
+    margin: 10px;
+    height: 80%;   
+    padding: 10px;
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.4);
+}
 
 /*  MISSION VISION */
 div#followus {
@@ -65,7 +76,24 @@ div#followuscontainer {
 /*  SIGNUP BENEFITS */
 
 div#signup-benefits {
-    background-color: #f9fdff;
+    background-color: #ebf0f6;
+}
+
+div#signup-benefits .sb-parent-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div#signup-benefits .sb-parent-info {
+    width: 50%;
+    display: flex;
+    height: 300px;
+    justify-content: flex-end;
+}
+
+div#signup-benefits ul {
+    width: 500px;
 }
 
 div#signup-benefits li{
@@ -74,6 +102,21 @@ div#signup-benefits li{
 div#signup-benefits .sb-title {
     font-size: 25px;
     font-weight: 600;
+}
+
+div.img-container {
+    width: 50%;
+    display: flex;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+}
+img.signup-benefits {
+    width: 80%;
+    margin: 10px;
+    height: 80%;   
+    padding: 10px;
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.4);
 }
 
 /* FAST START REGISTRATION */

@@ -3,7 +3,7 @@
 	<title>WorldWealth - Home</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
 	<link rel="icon" href="<?php echo base_url(); ?>css/img/favico.ico">
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/homepage.css" />
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/homepage.css" />	
 	<script type="text/javascript" src="<?php base_url(); ?>../js/jquery.js"></script>
 	<script type="text/javascript">
 		$(function(){

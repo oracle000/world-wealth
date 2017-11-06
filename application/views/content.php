@@ -10,22 +10,28 @@
 				<div>
 					<p class="wwr-title">WHO WE ARE</p>
 				</div>	
-				<div class="wwr-firstContent">
-					<p>Is a fast growing UK-based company founded on the idea 
-						of utilizing sales strategies in properties and adopting 
-						the essential principles of a network enterprise to create 
-						a lucrative business which end product is –”OUR FUTURE”!</p>
+				<div class="wwr-cont">
+					<div class="img-container">
+						<img src="css/img/who-we-are.jpg" class="wwr"/>	
+					</div>
+					<div class="">
+						<div class="wwr-firstContent">
+							<p>Is a fast growing UK-based company founded on the idea 
+								of utilizing sales strategies in properties and adopting 
+								the essential principles of a network enterprise to create 
+								a lucrative business which end product is –”OUR FUTURE”!</p>
+						</div>
+						<div class="wwr-secondContent">
+							<p>It is an independent company which is deemed in using the 
+								potentials of members to create a whirlpool that shall 
+								steer the calm waters of real estate industry by converting 
+								investment and hardwork into a vessel which shall sail 
+								past their expectations of entrepreneurial gains, other 
+								networking business may offer.</p>
+						</div>				
+					</div>
+					
 				</div>
-				<div class="wwr-secondContent">
-					<p>It is an independent company which is deemed in using the 
-						potentials of members to create a whirlpool that shall 
-						steer the calm waters of real estate industry by converting 
-						investment and hardwork into a vessel which shall sail 
-						past their expectations of entrepreneurial gains, other 
-						networking business may offer.</p>
-				</div>
-				
-
 			</div>
 			<div id="followus">
 				<div class="architecture-bg">
@@ -54,25 +60,30 @@
 			</div>
 
 			<div class="signup-benefits" id="signup-benefits">
+
 				<p class="sb-title">SIGN-UP BENEFITS</p>
-				<div>
-					<ul>
-						<li>Back Office- to monitor your business activity, 
-							position status, membership monitoring, compensation and benefits</li>
-						
-						<li>P10,000.00 reservation fee for your condominium unit.
-						</li>
-						
-						<li>Free training and orientation for membership and building up your team.
-						</li>
+				<div class="sb-parent-cont">
+					<div class="sb-parent-info">
+						<ul>
+							<li>Back Office- to monitor your business activity, 
+								position status, membership monitoring, compensation and benefits</li>
+							
+							<li>P10,000.00 reservation fee for your condominium unit.
+							</li>
+							
+							<li>Free training and orientation for membership and building up your team.
+							</li>
 
-						<li>Access to customer service/ member querries and updates/QA.
-						</li>
+							<li>Access to customer service/ member querries and updates/QA.
+							</li>
 
-						<li>Welcome Pack/ materials to start the business.
-						</li>
-					</ul>
-
+							<li>Welcome Pack/ materials to start the business.
+							</li>
+						</ul>
+					</div>
+					<div class="img-container">
+						<img src="css/img/signup-benefits.jpg" class="signup-benefits"/>
+					</div>
 				</div>
 			</div>	
 

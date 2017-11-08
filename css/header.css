@@ -85,6 +85,10 @@ div.sub-header{
     div.outside-container {
         display: none;
     }
+}
 
-
+@media all and (max-width:320px) {
+    div.outside-container {
+        display: none;
+    }
 }

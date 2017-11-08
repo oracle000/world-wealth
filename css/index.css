@@ -825,12 +825,12 @@ div.uiselect
 {
 	background-color:white;
 	position:relative;
-	z-index:3;
+	/* z-index:3; */
 	height:*;
 }
 #uplineid
 {
-	z-index:4;
+	/* z-index:4; */
 	position:relative;
 }
 #sponsorid
@@ -1097,6 +1097,31 @@ div.lmrow
 		/* border-bottom:4px inset #ededed; */
 	}
 
+	div#registrationcon {
+		height: 100%;
+		padding: 100px 0 0 10px;
+		margin: 0;
+		width: auto;
+	}
+
+	div#formwrapper {
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+	}
+
+	div#formwrapper form {
+		display: flex;
+		flex-direction: column;
+	}
+	div.acsponsor, div.acupline {
+		margin-left: 0px;
+	}
+	input#nextstep {
+		margin-top: 5px;
+	}
+
 	
 }
 @media all and (orientation:portrait)
@@ -1111,13 +1136,14 @@ div.lmrow
 }
 @media all and (max-width:320px)
 {
+
 	div.sub-header  {
 		display: none !important;
 		
 	}
 	div#header{
 		background-color: #ebf0f6;
-		height:80px;
+		/* height:80px; */
 		box-shadow:0px 0px 5px 0px;
 	}
 	div.hdrlinks
@@ -1126,13 +1152,16 @@ div.lmrow
 		display:none;
 		visibility:hidden;
 	}
+	div.lblcontent {
+		width: 100%;
+	}
 	div.menu
 	{
 		transition-duration:1s;
 		display:block;
 		float:left;
-		height:70px;
-		margin:5px 0px 0px 10px;
+		height: 55px;
+		margin: 10px 0px 0px 10px;
 	}
 	div.menu img
 	{
@@ -1150,10 +1179,11 @@ div.lmrow
 	{
 		float:right;
 		height:40px;
-		margin-top:20px;
+		margin-top: 15px;
 	}
 	div.companylogo img
 	{
+		max-height: 100%;
 		margin-top:0px;
 		margin-left:0px;
 		float:right;
@@ -1162,10 +1192,12 @@ div.lmrow
 	div#fuleft,div#furight
 	{
 		width:100%;
+		display: block;
+		height: initial;
 	}
 	div#fuleft
 	{
-		border-bottom:4px inset #ededed;
+		/* border-bottom:4px inset #ededed; */
 	}
 	div#container
 	{

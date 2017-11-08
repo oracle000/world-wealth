@@ -18,7 +18,8 @@ div#who-we-are {
 
 div.wwr-firstContent,
 div.wwr-secondContent {
-    width: 500px;
+    
+    max-width: 500px;
     font-weight: 600;
 }
 
@@ -151,4 +152,74 @@ div.faststart-registration li div p {
 div.faststart-registration li div p:first-child {
     font-weight: 600;
     margin-right: 10px;
+}
+
+
+
+@media all and (min-width:321px) and (max-width:1024px) { 
+    div.wwr-cont {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    div#who-we-are {
+        padding-top: 0px;
+    }
+    div.wwr-firstContent {
+        padding: 0 10px;
+        max-width: 500px;
+    }
+
+    div.wwr-secondContent {
+        padding: 0 10px;
+    }
+
+    div#followus {
+        height: 100%;
+        padding: 40px 0;
+    }
+
+    div#followuscontainer {
+        width: 95%;
+    }
+
+    div#missionwrap {
+        margin-top: 0;
+        margin-bottom: 20px;
+        padding: 0;
+        width: 100%;
+    }
+
+    div#signup-benefits {
+        padding: 20px 0;
+        width: 100%;        
+    }
+    div.sb-parent-cont {
+        width: 100%;
+        padding: 0 10px;
+
+    }
+
+    div#signup-benefits .sb-parent-cont {
+        flex-direction: column-reverse;
+    }
+
+    div#signup-benefits .sb-parent-info {
+        height:  auto;
+        width: 100%;
+    }
+
+    /* fast start */
+    div.faststart-registration {
+        width: 100%;
+    }
+    div.faststart-registration ul {
+        width: 80%;        
+    }
+    div.faststart-registration li {
+        width: 100%;
+        white-space: pre-wrap;
+        margin: 10px 0;
+    }
+
 }

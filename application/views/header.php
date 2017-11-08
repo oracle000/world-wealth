@@ -17,8 +17,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		$(document).ready(function(){
 			<!-- LOGIN FUNCTION -->
 
-			// check url			
-			if (window.location.pathname == "/networking/") {
+			// check url						
+			if ($(".wwr-title")[0]) {
 				$(".sub-header").show();
 			} else {
 				$(".sub-header").hide();

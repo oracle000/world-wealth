@@ -933,7 +933,7 @@ div.leftmenu
 	top:0;
 	left:0;
 	z-index:3;
-	margin-top:80px;
+	margin-top: 100px;
 	margin-left:calc(-60% - 3px);
 }
 div.lmrowwrapper
@@ -1039,7 +1039,7 @@ div.lmrow
 	}
 	div#header{
 		background-color: #ebf0f6;
-		height:80px;
+		/* height:80px; */
 		box-shadow:0px 0px 5px 0px;
 	}
 	div#footercontainer
@@ -1057,8 +1057,8 @@ div.lmrow
 		transition-duration:1s;
 		display:block;
 		float:left;
-		height:70px;
-		margin:5px 0px 0px 10px;
+		height:55px;
+		margin: 10px 0px 0px 10px;
 	}
 	
 	div.menu img
@@ -1068,7 +1068,7 @@ div.lmrow
 	}
 	div.companylogo
 	{
-		margin-top:15px;
+		margin-top: 10px;
 		float:right;
 		height:50px;
 	}
@@ -1090,10 +1090,13 @@ div.lmrow
 	{
 		width:100%;
 	}
-	div#fuleft
+	div#fuleft, 
+	div#furight
 	{
-		border-bottom:4px inset #ededed;
+		height: auto;
+		/* border-bottom:4px inset #ededed; */
 	}
+
 	
 }
 @media all and (orientation:portrait)

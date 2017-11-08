@@ -1244,4 +1244,56 @@ div.lmrow
 		width:calc(100% - 40px);
 		color:red;
 	}
+
+
+	div#contactuscon {
+		display: flex;
+		flex-direction: column;
+		height:  initial;
+	}
+	div#leftcontact {
+		width: 100%;
+	}
+	div#rightcontact {
+		width:  100%;
+	}
+	div#contactus {
+		padding-bottom: 80px;
+	}
+	div#cuimages {
+		display: flex;		
+		height: 40px;
+	}
+
+	div#formwrapper form {
+		display: flex;
+		flex-direction: column;
+	}
+	div#formwrapper{
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+	}
+
+	div.acsponsor, div.acupline {
+		margin-left: 0px;
+	}
+
+	div#registrationcon {
+		height: 100%;
+		padding: 100px 0 0 10px;
+		margin: 0;
+		width: auto;
+	}
+	.registerinput {
+		width: 250px;
+	}
+
+	label.inputform {
+		width:  250px;		
+	}
+	#nextstep{
+		margin-top: 10px;
+	}
 }

@@ -3,7 +3,8 @@ html, body
 	padding:0;
 	margin:0;
 	overflow-x:hidden;
-	font-family:"Segoe UI";
+	/* font-family:"Segoe UI"; */
+	font-family: 'Quicksand', sans-serif;
 	scrollbar-face-color: #367CD2;
     scrollbar-shadow-color: #FFFFFF;
     scrollbar-highlight-color: #FFFFFF;
@@ -69,15 +70,29 @@ div#followus
 }
 div.companylogo
 {
+	display: flex;
+	align-items: center;
 	height:70px;
-	/* float:left; */
-	
+	/* float:left; */	
 }
 div.companylogo img
 {
 	max-height:80%;
 	max-width:80%;
-	margin: 10px 0px 0px 50px;
+	margin: 0px 0px 0px 50px;
+}
+div.company-name {
+	display: flex;
+	flex-direction: column;
+	margin-left: 20px;
+}
+div.company-name .title, 
+div.company-name .sub-title {
+	margin: 0;
+}
+div.company-name .title {
+	font-size: 20px;
+	font-weight: 600;
 }
 div#hdrcontainer
 {
@@ -105,7 +120,7 @@ div.hdrlinks
 	margin-right:50px;
 	float:right;	
 	color:#8c8c8c;
-	font-family:"Segoe UI";
+	/* font-family:"Segoe UI"; */
 }
 #btnsignup
 {
@@ -143,7 +158,10 @@ div.textcontent
     bottom: 20%;
     right: 0;
 	color:white;
-	font-family:"Segoe UI";
+	width: 300px;
+    letter-spacing: 2px;
+    font-weight: 400;
+	/* font-family:"Segoe UI"; */
 }
 #btnsignupbot
 {
@@ -172,7 +190,7 @@ div#footer
 div#footercontainer
 {
 	color:white;
-	font-family:"Segoe UI";
+	/* font-family:"Segoe UI"; */
 	padding: 30px 0px 70px 0px;
 	height:*;
 	float:left;
@@ -263,7 +281,7 @@ div#logoico
 }
 div#lbltitle
 {
-	font-family:"Segoe UI";
+	/* font-family:"Segoe UI"; */
 	text-align:center;
 	font-size: 25px;
 	margin:0px 0 20px 0;
@@ -272,14 +290,14 @@ div#lbltitle
 div#lbldesc
 {
 	font-weight: 600;
-	font-family:"Segoe UI";
+	/* font-family:"Segoe UI"; */
 	text-align:center;
 }
 div#lblmore
 {
 	text-align:center;
 	margin-top:40px;
-	font-family:"Segoe UI";
+	/* font-family:"Segoe UI"; */
 }
 div#whoweare
 {
@@ -296,7 +314,7 @@ div#wwacontainer
 div#wwatitle
 {
 	text-align:center;
-	font-family:"Segoe UI";
+	/* font-family:"Segoe UI"; */
 	font-size:48px;
 	color:white;
 	padding-top:50px;
@@ -329,7 +347,7 @@ div.firstdesc
 	position:relative;
 	border-radius:15px;
 	line-height:30px;
-	font-family:"Segoe UI";
+	/* font-family:"Segoe UI"; */
 }
 div.firstdesc:before
 {
@@ -399,19 +417,20 @@ div.lbllinks a
 }
 div#contactus
 {
+	background: -webkit-linear-gradient(-45deg, rgba(125,185,232,1) 0%,rgba(3,74,115,0.25) 99%,rgba(2,73,114,0.25) 100%); 
+	background: -moz-linear-gradient(-45deg, rgba(125,185,232,1) 0%, rgba(3,74,115,0.25) 99%, rgba(2,73,114,0.25) 100%);
+	background: linear-gradient(135deg, rgba(125,185,232,1) 0%,rgba(3,74,115,0.25) 99%,rgba(2,73,114,0.25) 100%); 
 	height:*;
 	width:100%;
 	width:100%;
-	float:left;
-	background-color:#f4f4f4;
-	padding-top:50px;
+	float:left;	
+	padding-top: 100px;
 }
 div#contactuscon
-{
-	width:90%;
-	margin:20px 0px 0px 5%;
-	padding-bottom:50px;
-	float:left;
+{	
+	height: 100vh;
+	margin: 0 auto;
+	width: 90%;	
 }
 div#leftcontact
 {
@@ -428,7 +447,7 @@ div#rightcontact
 }
 div#titlecontact
 {
-	font-family:"Segoe UI";
+	/* font-family:"Segoe UI"; */
 	font-weight:500px;
 	font-size:25px;
 	margin-top:50px;
@@ -436,7 +455,7 @@ div#titlecontact
 div#desccontact
 {
 	margin-top:10px;
-	font-family:"Segoe UI";
+	/* font-family:"Segoe UI"; */
 	line-height:25px;
 	width:95%;
 }
@@ -454,28 +473,27 @@ div.ccwrapdesc
 	float:left;
 	height:20px;
 	line-height:20px;
-	font-family:"Segoe UI";
+	/* font-family:"Segoe UI"; */
 }
+
+div.lblmsginput {
+	height:  40px;
+}	
 .inputmsg
 {
-	height:50px;
+	height: 30px;
 	width:100%;
 	border-radius:5px;
 	border:2px solid silver;
 	margin-bottom:20px;
 	outline:none;
-	text-indent:20px;
-	transition: ease-in-out,box-shadow .35s ease-in-out;
+	text-indent:20px;	
 }
-.inputmsg:focus
-{
-	border:1px solid black;
-	box-shadow:0px 0px 10px 1px;
-}
+
 div.lblmsg
 {
-	font-family:"Segoe UI";
-	font-weight:bold;
+	/* font-family:"Segoe UI"; */
+	font-weight: 600;
 	height:25px;
 }
 div#companypic
@@ -491,13 +509,9 @@ div#companypic
 	border:2px solid silver;
 	padding:10px 20px 10px 20px;
 	resize:none;
+	border-radius: 5px;
 }
-#msgforus:focus
-{
-	border:1px solid black;
-	box-shadow:0px 0px 10px 1px;
-	transition-duration:0.5s;
-}
+
 #submit
 {
 	background-color:#074f8e;
@@ -511,11 +525,8 @@ div#companypic
 }
 #submit:hover
 {
-	color:#074f8e;
-	background-color:white;
-	border:1px solid #074f8e;
-	cursor:pointer;
-	transition-duration:1s;
+    background-color: #2779c0;
+    cursor: pointer;
 }
 div#loginwrapper
 {
@@ -543,15 +554,14 @@ div#loginbanner
 }
 div#loginmsgwrap
 {
-	height:*;
-	width:400px;
-	margin:120px auto auto auto;
+	height: *;
+	width: 400px;
+	margin: 150px auto auto auto;
 }
 label.bannertitle
 {
-	font-family:"Segoe UI";
-	font-size:25px;
-	font-weight: 100;
+	/* font-family:"Segoe UI"; */
+	font-size:25px;	
 	text-align:center;
 	border-bottom:1px solid #fff;
 	display:inline-block;
@@ -560,9 +570,8 @@ label.bannertitle
 }
 label.bannersubtitle
 {
-	font-family:"Segoe UI";
-	font-size:18px;
-	font-weight: 100;
+	/* font-family:"Segoe UI"; */
+	font-size:18px;	
 	text-align:center;
 	display:inline-block;
 	height:40px;
@@ -572,20 +581,19 @@ label.bannersubtitle
 }
 label.logincredentials
 {
-	font-family:"Segoe UI";
+	/* font-family:"Segoe UI"; */
 	font-size:18px;
 	font-weight:100;
 	text-align:center;
 	display:inline-block;
-	height:50px;
+	height: 40px;
 	width:calc(100% - 40px);
 }
 label.forgotpassword
 {
 	margin-top:20px;
-	font-family:"Segoe UI";
-	font-size:14px;
-	font-weight: 100;
+	/* font-family:"Segoe UI"; */
+	font-size:14px;	
 	text-align:center;
 	display:inline-block;
 	height:20px;
@@ -593,17 +601,17 @@ label.forgotpassword
 }
 label.termsandcons
 {
-	font-family:"Segoe UI";
-	font-size:12px;
-	font-weight: 100;
+	/* font-family:"Segoe UI"; */
+	font-size:12px;	
 	text-align:center;
 	display:inline-block;
 	width:calc(100% - 40px);
 }
 .inputlogin
 {
+	outline: none;
 	width:100%;	
-	height:40px;
+	height: 30px;
 	text-indent:20px;
 	border-radius:5px;
 	border:2px solid silver;
@@ -615,7 +623,7 @@ label.termsandcons
 	border:none;
 	color:white;
 	width:100%;
-	height:40px;
+	height: 30px;
 	border-radius:5px;
 }
 #loginbtn:hover
@@ -653,7 +661,7 @@ div#msgalertwrapper
 label.msglogin
 {
 	color:white;
-	font-family:"Segoe UI";
+	/* font-family:"Segoe UI"; */
 	font-size:12px;
 	float:left;
 	line-height:20px;
@@ -686,25 +694,22 @@ div#registrationcon
 label.registrationtitle
 {
 	display:block;
-	font-family:"Segoe UI";
-	font-size:30px;
-	font-weight: 100;
+	/* font-family:"Segoe UI"; */
+	font-size: 25px;	
 	height:60px;
 	line-height:60px;
 }
 label.registrationsubtitle
 {
 	display:block;
-	font-family:"Segoe UI";
-	font-weight: 100;
+	/* font-family:"Segoe UI";	 */
 }
 label.lblform
 {
 	display:inline-block;
 	width:150px;
-	font-family:"Segoe UI";
+	/* font-family:"Segoe UI"; */
 	font-size:16px;
-	font-weight:100;
 }
 label.inputform
 {
@@ -723,7 +728,7 @@ div#formwrapper
 {
     border-radius: 5px;
     border: 2px solid silver;
-
+	outline: none;
 	width:300px;
 	height:30px;
 	text-indent:10px;
@@ -737,7 +742,7 @@ div#formwrapper
 	line-height:30px;
 	text-align:center;
 	background-color:silver;
-	font-family:"Segoe UI";
+	/* font-family:"Segoe UI"; */
 }
 div#secondstep
 {
@@ -786,7 +791,7 @@ div.errormsgreg
 	background-color:#5e5e5e;
 	line-height:30px;
 	color:white;
-	font-family:"Segoe UI";
+	/* font-family:"Segoe UI"; */
 }
 div.errormsgreg::before
 {
@@ -803,8 +808,7 @@ div.errormsgreg::before
 div.acsponsor,div.acupline
 {
 	margin-left:4px;
-	position:absolute;
-	background-color:white;
+	position:absolute;	
 	overflow:hidden;
 }
 div.curselect
@@ -843,7 +847,7 @@ div.uiselect
 	height:30px;
 	margin-top:5px;
 	margin-bottom:5px;
-	font-family:"Segoe UI";
+	/* font-family:"Segoe UI"; */
 }
 
 .lblselectname:hover,.lblselectnameu:hover
@@ -856,28 +860,28 @@ div.tytitle
 	padding-top:50px;
 	padding-bottom:20px;
 	text-align:center;
-	font-family:"Segoe UI";
+	/* font-family:"Segoe UI"; */
 	font-size:40px;
 	font-weight:100;
 }
 div.tydesc
 {
 	text-align:center;
-	font-family:"Segoe UI";
+	/* font-family:"Segoe UI"; */
 	font-size:20px;
 	font-weight:100;
 }
 div.tydesc1
 {
 	text-align:center;
-	font-family:"Segoe UI";
+	/* font-family:"Segoe UI"; */
 	font-size:16px;
 	font-weight:100;
 }
 div.tydesc2
 {
 	text-align:center;
-	font-family:"Segoe UI";
+	/* font-family:"Segoe UI"; */
 	font-size:16px;
 	font-weight:100;
 }
@@ -968,7 +972,7 @@ div.lmrow
 	margin-left:20px;
 	height:50px;
 	line-height:50px;
-	font-family:"Segoe UI";
+	/* font-family:"Segoe UI"; */
 	border-bottom:1px solid #ededed;
 }
 @media all and (min-width:321px) and (max-width:1024px){

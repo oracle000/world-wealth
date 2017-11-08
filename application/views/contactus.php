@@ -32,4 +32,5 @@
 			<div class="wrapsubmitmsg"><input type="button" value="Submit" id="submit"></div>
 		</div>
 	</div>
+	<span class="clear"></span>
 </div>

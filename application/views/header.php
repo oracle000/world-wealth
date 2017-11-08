@@ -9,12 +9,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<!-- <link rel="stylesheet" type="text/css" href="css/index.css" /> -->
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/header.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/section-panel.css" />
-	<script type="text/javascript" src="<?php echo base_url(); ?>js/jquery.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="<?php echo base_url(); ?>js/jquery.js"></script>
 	<!--<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>-->
 	<script type="text/javascript">
 		$(document).ready(function(){
 			<!-- LOGIN FUNCTION -->
+
+			// check url			
+			if (window.location.pathname == "/networking/") {
+				$(".sub-header").show();
+			} else {
+				$(".sub-header").hide();
+			}
+
 			$("input.inputlogin").focus(function(){
 				var value = $(this).val();
 				var label = $(this).attr('label');
@@ -239,8 +248,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			</div>
 			<div id="hdrcontainer">
 				<div class="menu"><img src="<?php echo base_url(); ?>css/img/menu1.png"></div>
-				<div class="companylogo"><img src="<?php echo base_url(); ?>css/img/wwicon2.jpg" /></div>
-				
+				<div class="companylogo">
+					<img src="<?php echo base_url(); ?>css/img/wwicon2.jpg" />
+					<div class="company-name">
+						<p class="title">World Wealth</p>
+						<p class="sub-title">Property and Leisure</p>
+					</div>					
+				</div>				
 				<span class="clear"></span>
 				<div class="sub-header ">
 					<div ><a href="#who-we-are" class="navigate-item-inside">Who we are</a></div>

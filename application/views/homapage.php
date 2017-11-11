@@ -4,6 +4,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
 	<link rel="icon" href="<?php echo base_url(); ?>css/img/favico.ico">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/homepage.css" />	
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script type="text/javascript" src="<?php base_url(); ?>../js/jquery.js"></script>
 	<script type="text/javascript">
 		$(function(){
@@ -302,8 +304,45 @@
 				//$("#testingkoto.inputwrapper").remove();
 			});
 			$(window).resize(function(){
-				reloadpyramid();
+				reloadpyramid();d
 			});		
+
+			// check url then highlight navigation
+			// check url						
+			if ($(".wwr-title")[0]) {
+				$(".sub-header").show();
+			} else {
+				$(".sub-header").hide();
+			}
+
+			var href = location.href;
+			href = (href.match(/([^\/]*)\/*$/)[1]);			
+			switch (href) {
+				case "homepage":  					
+					$("div#usermod").addClass("hover-navigation");
+					$("div#walletmod").removeClass("hover-navigation");
+					$("div#transactionmod").removeClass("hover-navigation");
+					$("div#incentivesmod").removeClass("hover-navigation");
+					$("div#logoutmod").removeClass("hover-navigation");																							
+					break;
+				case "transaction": 
+					$("div#transactionmod").addClass("hover-navigation");
+					$("div#walletmod").removeClass("hover-navigation");
+					$("div#usermod").removeClass("hover-navigation");
+					$("div#incentivesmod").removeClass("hover-navigation");
+					$("div#logoutmod").removeClass("hover-navigation");	
+					break;
+				case "wallet" :
+					$("div#walletmod").addClass("hover-navigation");
+					$("div#transactionmod").removeClass("hover-navigation");
+					$("div#usermod").removeClass("hover-navigation");
+					$("div#incentivesmod").removeClass("hover-navigation");
+					$("div#logoutmod").removeClass("hover-navigation");	
+					break;
+				
+
+			}
+
 		});
 	</script>
 </head>
@@ -311,38 +350,45 @@
 	<div id="loadingwrap"></div>
 	<div id="container">
 		<div id="header">
-			<div id="tophdr"><a href="<?php echo base_url(); ?>portal/homepage"><img class="wwicon" src="<?php echo base_url(); ?>css/img/wwicon2.jpg" height=50px title="Homepage World Wealth"></a></div>
-			<div id="bothrd">
+			<div id="tophdr">
+				<div class="home-img-cont">
+					<a href="<?php echo base_url(); ?>portal/homepage" class="home-img"><img class="wwicon" src="<?php echo base_url(); ?>css/img/wwicon2 - homepage.jpg" height=50px title="Homepage World Wealth"></a>
+					<div class="home-img-text">
+						<p>World Wealth</p>
+						<p>Property and Leisure</p>
+					</div>
+				</div>
 				<div id="bothdrcontainer">
 					<div id="usermod">
 						<a href="<?php echo base_url(); ?>portal/homepage">
-						<div class="imgcon"><img id="imghdrlinks" height=40px src="<?php echo base_url(); ?>css/img/userpic<?php echo $profiledir; ?>.png"></div>
-						<div class="hdrlinks" <?php if($profiledir != '') echo "style=\"color:#024972;\""; ?>>Profile</div>
+							<i class="fa fa-user" aria-hidden="true"></i>						
+							<div class="hdrlinks" <?php if($profiledir != '') echo "style=\"color:#333;\""; ?>>PROFILE</div>
 						</a>
 					</div>
 					<div id="walletmod">
 						<a href="<?php echo base_url(); ?>portal/wallet">
-						<div class="imgcon"><img id="imghdrlinks" height=40px src="<?php echo base_url(); ?>css/img/wallet<?php echo $walletdir; ?>.png"></div>
-						<div class="hdrlinks" <?php if($walletdir != '') echo "style=\"color:#024972;\""; ?>>Wallet</div>
+							<i class="fa fa-usd" aria-hidden="true"></i>
+							<div class="hdrlinks" <?php if($walletdir != '') echo "style=\"color:#333;\""; ?>>WALLET</div>
 						</a>
 					</div>
 					<div id="transactionmod">
 						<a href="<?php echo base_url(); ?>portal/transaction">
-						<div class="imgcon"><img id="imghdrlinkstrx" height=40px src="<?php echo base_url(); ?>css/img/transaction<?php echo $trxdir; ?>.png"></div>
-						<div class="hdrlinks" <?php if($trxdir != '') echo "style=\"color:#024972;\""; ?>>Genealogy</div>
+							<i class="fa fa-desktop" aria-hidden="true"></i>
+							<div class="hdrlinks" <?php if($trxdir != '') echo "style=\"color:#333;\""; ?>>GENEALOGY</div>
 						</a>
 					</div>
 					<div id="incentivesmod">
-						<div class="imgcon"><img id="imghdrlinkstrx" height=40px src="<?php echo base_url(); ?>css/img/incentives<?php echo $incentivesdir; ?>.png"></div>
-						<div class="hdrlinks" <?php if($incentivesdir != '') echo "style=\"color:#024972;\""; ?>>Incentives</div>
+						<a href="">
+							<i class="fa fa-trophy" aria-hidden="true"></i>
+							<div class="hdrlinks" <?php if($incentivesdir != '') echo "style=\"color:#333;\""; ?>>INCENTIVES</div>
+						</a>
 					</div>
 					<div id="logoutmod">
 						<a href="<?php echo base_url(); ?>portal/logout">
-						<div class="imgcon"><img id="imghdrlinks" height=40px src="<?php echo base_url(); ?>css/img/logout.png"></div>
-						<div class="hdrlinks">Logout</div>
+							<i class="fa fa-sign-out" aria-hidden="true"></i>
+							<div class="hdrlinks">LOGOUT</div>
 						</a>
-					</div>
-					
+					</div>					
 				</div>
 			</div>
 		</div>

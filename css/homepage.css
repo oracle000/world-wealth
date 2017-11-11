@@ -3,6 +3,7 @@ body
 	padding:0;
 	margin:0;
 	background-color:#dedede;
+	font-family: 'Quicksand', sans-serif;
 }
 div#container
 {
@@ -12,16 +13,36 @@ div#header
 {
 	top:0;
 	position:fixed;
-	height:120px;
+	height: 60px;
 	width:100%;
-	background-color: rgba(255, 255, 255, 1);
+	background-color: #3b8dbd;
 	box-shadow:0px 0px 10px 0px #808080;
 	z-index:2;
 }
 div#tophdr
 {
-	border-bottom:1px solid #d4d4d4;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 10px 50px 0 10px;	
 	height:50px;
+	align-items: flex-end;
+}
+a.home-img {
+	padding-bottom: 5px;
+}
+div.home-img-cont {
+	display: flex;
+}
+div.home-img-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 10px;
+}
+div.home-img-text p:first-child {
+	font-size: 20px;
+	font-weight: 600;
 }
 img.wwicon
 {
@@ -29,43 +50,63 @@ img.wwicon
 }
 div#bothdrcontainer
 {
-
-	height:60px;
-	width:500px;
+	height: 35px;	
 	margin-top:5px;
-	margin-left:auto;
-	margin-right:auto;
 }
 div#bothdrcontainer a
 {
-	text-decoration:none;
+	color : #333;
+	text-decoration: none;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
-div#usermod,div#walletmod
+div#usermod, div#walletmod
 {
 	float:left;
-	height:60px;
-	width:50px;
-	margin-right:40px;
-	//border:1px solid black;
+	height: 35px;
+	width: 120px;
+	transition-duration: 0.5s;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;	
+	color: #fff;
+}
+div.hover-navigation {
+	background-color: #dedede;
+	color: #333;
 }
 div#transactionmod,div#incentivesmod
 {
-	float:left;
-	height:60px;
-	width:80px;
-	margin-right:40px;
-	//border:1px solid black;
+	float: left;
+    height: 35px;
+    width: 120px;
+    transition-duration: 0.5s;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
 div#logoutmod
 {
-	float:left;
-	height:60px;
-	width:50px;
-	//border:1px solid black;
+	color: #333;
+	float: left;
+    height: 35px;
+    width: 120px;
+    transition-duration: 0.5s;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 div#usermod:hover,div#walletmod:hover,div#transactionmod:hover,div#incentivesmod:hover,div#logoutmod:hover
 {
-	transition-duration:0.5s;
+	
 	background-color:#dedede;
 	cursor:pointer;
 }
@@ -75,6 +116,7 @@ div.hdrlinks
 	font-size:12px;
 	text-align:center;
 	color:#333333;
+	margin-left: 10px;
 }
 img#imghdrlinks
 {
@@ -91,18 +133,18 @@ div.imgcon
 }
 div#content
 {
-	height:*;
-	margin-top:120px;
-	padding:30px;
+	height: *;
+	margin-top: 60px;	
 }
 div#leftcontent
 {
-	background-color:white;
+	color: #fff;
+    background-color: #232e32;
 	height:*;
-	width:calc(25% - 30px);
+	width: 20%;
 	box-shadow:0px 0px 3px 0px #ededed;
 	float:left;
-	padding:15px;
+	padding: 50px 15px;
 }
 div#rightcontent
 {
@@ -114,32 +156,28 @@ div#rightcontent
 	float:left;
 	padding:20px;
 }
-div#topcontent
-{
-	height:50px;
-	font-family:Segoe UI;
-	color:#666666;
-}
+
 div#userpicwrapper
 {
-	height:90px;
+	padding: 0 0 30px 0;
 }
 div#userpic
 {
-	border:1px solid #eeeeee;
+	
 	margin:auto;
-	width:90px;
-	height:90px;
+	width: 120px;
+	height: 120px;
 }
 img#imguserpic
 {
+	border-radius: 50%;
 	max-width: 100%;
     max-height: 100%;
 }
 #acctstrong
 {
 	font-weight:600;
-	color:#666666;
+	color:#fff;
 }
 div#accountinfo
 {
@@ -149,15 +187,15 @@ div#accountinfo
 div#acctcol
 {
 	font-family:tahoma;
-	height:25px;
+	height: 30px;
 	line-height:25px;
 	font-size:13px;
-	border-bottom:1px solid #eeeeee;
+	border-bottom: 0.5px solid rgba(255,255,255,0.5);
 	overflow:hidden;
 }
 span#acctrslt
 {
-	color:#666666;
+	color:#fff;
 	text-overflow:ellipsis;
 	overflow:hidden;
 	height:25px;
@@ -1646,10 +1684,5 @@ div.searchloaderhover{
 		padding:40px;
 		margin:20px 0px 20px 5%;
 		float:left;
-	}
-	div#topcontent
-	{
-		width:90%;
-		margin:20px 0px 0px 5%;
 	}
 }

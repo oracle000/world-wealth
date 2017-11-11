@@ -1,5 +1,5 @@
 		<div id="content">
-			<div id="topcontent">PROFILE INFORMATION</div>
+			
 			<div id="leftcontent">
 				<div id="userpicwrapper">
 					<div id="userpic"><img id="imguserpic" src="<?php echo $profilepic; ?>"></div>

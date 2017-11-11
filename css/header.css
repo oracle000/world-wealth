@@ -80,6 +80,11 @@ div.sub-header{
     font-size: 14px;
 }
 
+a.res-url {
+    color: #333;
+    text-decoration: none;
+}
+
 
 @media all and (min-width:321px) and (max-width:1024px){
     div.outside-container {

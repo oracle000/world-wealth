@@ -303,7 +303,7 @@
 			});
 			$(window).resize(function(){
 				reloadpyramid();
-			});
+			});		
 		});
 	</script>
 </head>

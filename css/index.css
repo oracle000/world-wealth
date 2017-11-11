@@ -976,6 +976,10 @@ div.lmrow
 	border-bottom:1px solid #ededed;
 }
 @media all and (min-width:321px) and (max-width:1024px){
+
+	div#contactus {
+		padding-bottom: 80px;
+	}
 	div#container
 	{
 		height:*;
@@ -1195,10 +1199,7 @@ div.lmrow
 		display: block;
 		height: initial;
 	}
-	div#fuleft
-	{
-		/* border-bottom:4px inset #ededed; */
-	}
+
 	div#container
 	{
 		height:*;

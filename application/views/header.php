@@ -194,31 +194,41 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<div style="height:35px;margin-top:5px;float:left;">
 						<img style="max-height:100%; max-width:100%" src="<?php echo base_url();?>css/img/wwhome.png">
 					</div>
-					<span style="float:left;margin-left:5px;">Home</span>
+					<span style="float:left;margin-left:5px;">
+						<a href="<?php echo base_url(); ?>" class="res-url">Home</a>
+					</span>
 				</div>
 				<div class="lmrow">
 					<div style="height:35px;margin-top:5px;float:left;">
 						<img style="max-height:100%; max-width:100%" src="<?php echo base_url();?>css/img/wwphone.png">
 					</div>
-					<span style="float:left;margin-left:5px;">Contact Us</span>
+					<span style="float:left;margin-left:5px;">
+						<a href="<?php echo base_url(); ?>task/contact" class="res-url">Contact Us</a>
+					</span>
 				</div>
 				<div class="lmrow">
 					<div style="height:35px;margin-top:5px;float:left;">
 						<img style="max-height:100%; max-width:100%" src="<?php echo base_url();?>css/img/wwabout.png">
 					</div>
-					<span style="float:left;margin-left:5px;">About Us</span>
+					<span style="float:left;margin-left:5px;">
+						<a href="<?php echo base_url(); ?>task/about" class="res-url">About Us</a>
+					</span>
 				</div>
 				<div class="lmrow">
 					<div style="height:35px;margin-top:5px;float:left;">
 						<img style="max-height:100%; max-width:100%" src="<?php echo base_url();?>css/img/wwlogin.png">
 					</div>
-					<span style="float:left;margin-left:5px;">Login</span>
+					<span style="float:left;margin-left:5px;">
+						<a href="<?php echo base_url(); ?>task/login" class="res-url">Login</a>
+					</span>
 				</div>
 				<div class="lmrow">
 					<div style="height:35px;margin-top:5px;float:left;">
 						<img style="max-height:100%; max-width:100%" src="<?php echo base_url();?>css/img/wwform.png">
 					</div>
-					<span style="float:left;margin-left:5px;">Sign Up</span>
+					<span style="float:left;margin-left:5px;">
+						<a href="<?php echo base_url(); ?>task/register" class="res-url">Sign Up</a>
+					</span>
 				</div>
 			</div>
 		</div>

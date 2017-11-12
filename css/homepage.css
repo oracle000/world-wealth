@@ -494,7 +494,10 @@ div#serviceincome
 div.lbltxtfld
 {
 	display:inline-block;
-	width:calc(80% - 30px);
+	width:calc(80% - 30px);	
+}
+div.lbltxtfld.update-pass-cont {
+	text-align: center;
 }
 div.lbltxtfld2
 {
@@ -571,6 +574,9 @@ div#profilesettings,div#formuploader
     width: 100%;
 	
 }
+div#formuploader {
+	height: calc(100% - 170px);
+}
 div#lblprosettings,div.futitle
 {
 	text-indent:25px;
@@ -591,11 +597,13 @@ div#fldwrapper
 	font-family:"Segoe UI";
 }
 div.inputwrapper
-{
-	
-	width:70%;
-	margin:0px auto 30px auto;
+{	
+	width: 40%;
+	margin:0px auto 30px auto;	
+}
 
+div.bankcont {
+	display: flex;
 }
 div.lblinput
 {
@@ -682,22 +690,20 @@ div.lbltxtfld input[type=text]:focus {
 }
 #savepass
 {
-	height:40px;
-	width:100%;
-	background-color:#024972;
-	outline:none;
-	border:1px solid #024972;
-	color:black;
-	color:white;
-	font-family:tahoma;
-	border-radius:5px;
+	border-radius: 5px;    
+    background-color: #074f8e;
+    outline: none;
+    border: none;
+    color: white;
+    width : 50%;
+    height: 40px;
+    cursor: pointer;
+    
 }
 #savepass:hover
 {
-	cursor:pointer;
-	transition-duration:1s;
-	background-color:white;
-	color:#024972;
+    background-color: #2779c0;
+    color: #fff;
 }
 #discardregdetails
 {
@@ -790,21 +796,23 @@ div#tbllvldtls
 }
 div#passwordsettings
 {
-	background-color:white;
-	margin:0px 0px 20px 30px;
-	width:calc(100% - 60px);
-	padding-top:20px;
+	background-color:#3f454a;
+	height: calc(100% - 80px);
 	padding-bottom:20px;
 }
 div.lblpassset
 {
-	font-family:"Segoe UI";
-	font-size:30px;
+	text-indent: 25px;
+    height: 50px;
+    font-family: Segoe UI;
+    margin-top: 60px;
+    font-size: 20px;
+    background-color: #3f454a;
+    color: #fff;
+    padding-top: 20px;
+    text-align: center;	
 	font-weight:100;
 	height:50px;
-	color:#666666;
-	margin-top:140px;
-	text-indent:30px;
 }
 div#contentprofile
 {
@@ -1395,7 +1403,11 @@ div#pyramidwrapper
 }
 div#fuwrapper
 {
-	padding:20px;
+	padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 div#uploadcol
 {
@@ -1411,21 +1423,26 @@ div#uploadcol:nth-last-child(1)
 }
 div#uploadcol input[type="submit"]
 {
-	height:40px;
-	width:100px;
-	margin-top:40px;
-	background-color:#024972;
-	border:1px solid #024972;
-	border-radius:5px;
-	color:white;
-	font-family:tahoma;
+	border-radius: 5px;
+    height: 30px;
+    background-color: #074f8e;
+    outline: none;
+    border: none;
+    color: white;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    margin-right: 10px;
+    width: 150px;
+	cursor: pointer;
+	margin-top: 30px;
 }
 div#uploadcol input[type="submit"]:hover
 {
-	cursor:pointer;
-	transition-duration:1s;
-	background-color:white;
-	color:#024972;
+	background-color: #2779c0;
+    color: #fff;
 }
 span.uploaderror
 {

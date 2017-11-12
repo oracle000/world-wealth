@@ -1,5 +1,7 @@
-		<div class="lblpassset">Password Settings</div>	
-		<div id="passwordsettings">
+	<div id="passwordsettings">
+		<div class="lblpassset">
+			<i class="fa fa-key" aria-hidden="true"></i>	
+			Password Settings</div>	
 			
 			<div class="inputwrapper">
 				<?php echo form_open("portal/updatepass","autocomplete=\"off\"");?>
@@ -33,7 +35,7 @@
 			</div>
 			<div class="inputwrapper" style="width:80%">
 				
-				<div class="lbltxtfld" style="width:100%">
+				<div class="lbltxtfld update-pass-cont" style="width:100%">
 				<?php echo form_submit("firstname","Save","id=\"savepass\"");?>
 				<?php 
 					

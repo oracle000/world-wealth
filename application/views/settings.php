@@ -116,7 +116,7 @@ else
 								);
 								
 								echo "
-								<div class=\"inputwrapper\">
+								<div class=\"inputwrapper bankcont\">
 									<div class=\"lblinput\">$description</div>
 									<div class=\"lbltxtfld\">".form_input("buildbank[]","$bankname","id=\"bankname\"")."".form_input("buildaccountno[]","$accountno","id=\"accountno\"")."</div>
 									<div class=\"lbltxtfld3\">
@@ -133,7 +133,7 @@ else
 						else
 						{
 							echo "
-							<div class=\"inputwrapper\">
+							<div class=\"inputwrapper bankcont\">
 								<div class=\"lblinput\">Bank</div>
 								<div class=\"lbltxtfld2\">".form_input("bankname[]","Name","id=\"bankname\"")."".form_input("accountno[]","Account No","id=\"accountno\"")."</div>
 								<div class=\"lbltxtfld3\">

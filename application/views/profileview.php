@@ -43,7 +43,7 @@
 					<div id="auwcol">					
 						<a href="<?php echo base_url(); ?>portal/updateprofile">
 							<span class="auwcollinks">
-								<i class="fa fa-wrench" aria-hidden="true"></i>Update Profile
+								<i class="fa fa-pencil" aria-hidden="true"></i>Update Profile
 							</span>						
 							<span class="auwcoldesc">Update your profile information</span>
 						</a>	
@@ -70,11 +70,11 @@
 				<div id="rcwrapper">
 					<div id="rctitle">
 						<div class="tabreg">
-							<div class="imgrc"><img src="<?php echo base_url(); ?>css/img/wwform.png"></div>
+							<i class="fa fa-list" aria-hidden="true"></i>
 							<span>Registration</span>
 						</div>
 						<div class="tabcom">
-							<div class="imgrc"><img src="<?php echo base_url(); ?>css/img/wwcomm.png"></div>
+							<i class="fa fa-usd" aria-hidden="true"></i>
 							<span>Commission</span>
 						</div>
 					</div>

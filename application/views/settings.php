@@ -30,7 +30,7 @@ else
 
 ?>
 		<?php echo form_open("portal/updateregdetails","autocomplete=\"off\" name=\"formupdate\" id=\"formupdate\"");?>
-		<div id="lblprosettings">UPDATE PROFILE</div>
+		<div id="lblprosettings"><i class="fa fa-pencil" aria-hidden="true"></i> UPDATE PROFILE</div>
 		<div id="profilesettings">
 			<div id="wrapperprofile">
 				
@@ -152,9 +152,9 @@ else
 					
 					<div class="inputwrapper">
 						<div class="lblinput">&nbsp;</div>
-						<div class="lbltxtfld">
+						<div class="lbltxtfld update-cont">
 							<?php echo form_submit("submit","Save","id=\"saveregdetails\""); ?>
-							<a href="<?php echo base_url()."portal/updateprofile"; ?>"><?php echo form_button("submit","Discard","id=\"discardregdetails\""); ?></a>
+							<a href="<?php echo base_url()."portal/updateprofile"; ?>" class="discard-link"><?php echo form_button("submit","Discard","id=\"discardregdetails\""); ?></a>
 							<?php 
 								if(isset($msg))
 								{

@@ -39,23 +39,29 @@
 					</div>
 				</div>
 				<div id="accountupdatewrap">
-					<span class="auwtitle">Account Setting</span>
-					<div id="auwcol">
+					<span class="auwtitle">ACCOUNT SETTINGS</span>
+					<div id="auwcol">					
 						<a href="<?php echo base_url(); ?>portal/updateprofile">
-						<span class="auwcollinks">Update Profile</span>
-						<span class="auwcoldesc">Update your profile information</span>
-						</a>
+							<span class="auwcollinks">
+								<i class="fa fa-wrench" aria-hidden="true"></i>Update Profile
+							</span>						
+							<span class="auwcoldesc">Update your profile information</span>
+						</a>	
 					</div>
-					<div id="auwcol">
+					<div id="auwcol">						
 						<a href="<?php echo base_url(); ?>portal/updatepicture">
-						<span class="auwcollinks">Change Profile Picture</span>
-						<span class="auwcoldesc">Update your profile picture</span>
+							<span class="auwcollinks">
+								<i class="fa fa-camera" aria-hidden="true"></i>Change Profile Picture
+							</span>
+							<span class="auwcoldesc">Update your profile picture</span>
 						</a>
 					</div>
-					<div id="auwcol">
+					<div id="auwcol">						
 						<a href="<?php echo base_url(); ?>portal/updatepassword">
-						<span class="auwcollinks">Change Password</span>
-						<span class="auwcoldesc">Update your password</span>
+							<span class="auwcollinks">
+								<i class="fa fa-key" aria-hidden="true"></i>Change Password
+							</span>
+							<span class="auwcoldesc">Update your password</span>
 						</a>
 					</div>
 				</div>

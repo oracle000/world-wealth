@@ -352,7 +352,7 @@
 		<div id="header">
 			<div id="tophdr">
 				<div class="home-img-cont">
-					<a href="<?php echo base_url(); ?>portal/homepage" class="home-img"><img class="wwicon" src="<?php echo base_url(); ?>css/img/wwicon2 - homepage.jpg" height=50px title="Homepage World Wealth"></a>
+					<a href="<?php echo base_url(); ?>portal/homepage" class="home-img"><img class="wwicon" src="<?php echo base_url(); ?>css/img/wwicon2-dark.jpg" height=50px title="Homepage World Wealth"></a>
 					<div class="home-img-text">
 						<p>World Wealth</p>
 						<p>Property and Leisure</p>
@@ -368,7 +368,7 @@
 					<div id="walletmod">
 						<a href="<?php echo base_url(); ?>portal/wallet">
 							<i class="fa fa-usd" aria-hidden="true"></i>
-							<div class="hdrlinks" <?php if($walletdir != '') echo "style=\"color:#333;\""; ?>>WALLET</div>
+							<div class="hdrupdate links" <?php if($walletdir != '') echo "style=\"color:#333;\""; ?>>WALLET</div>
 						</a>
 					</div>
 					<div id="transactionmod">

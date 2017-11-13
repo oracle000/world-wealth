@@ -23,7 +23,7 @@
 								<option value="USD">USD - US Dollar</option>
 							</select>
 						</div>
-						<div id="encashcol">
+						<div id="encashcol" >
 							<span id="acctstrong">Encashment Amount:</span>
 						</div>
 						<div id="encashcol">
@@ -32,7 +32,7 @@
 						<div id="encashcol">
 							<?php echo form_dropdown('forextype',$encashtype,'','id="forextype"');?>
 						</div>
-						<div id="encashcol">
+						<div id="encashcol" class="wallet-submit">
 							<input type="button" value="Encash" id="encashbtn">
 						</div>
 						

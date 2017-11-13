@@ -12,8 +12,9 @@
 				<span class="searchbtn"><input type="button" value="Search" id="search"></span>
 			</div>
 		</div>
-		<div id="transactiontitle"><span>Pyramid View - Business Founder</span></div>
+		
 		<div id="transactiontbl">
+		<div class="pyramid-text">Pyramid View - Business Founder</div>
 			<div id="pyramidwrapper">
 			<!-- Loaded Dynamically -->
 			</div>

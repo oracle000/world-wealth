@@ -304,7 +304,7 @@
 				//$("#testingkoto.inputwrapper").remove();
 			});
 			$(window).resize(function(){
-				reloadpyramid();d
+				reloadpyramid();
 			});		
 
 			// check url then highlight navigation

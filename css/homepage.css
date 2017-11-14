@@ -144,11 +144,11 @@ div#content
 	margin-top: 60px;	
 }
 div#leftcontent
-{
+{	
 	color: #fff;
     background-color: #3f454a;
     height: *;
-    width: calc(20% - 30px);
+	width: calc(20% - 30px);	
     /* box-shadow: 0px 0px 3px 0px #ededed; */
     float: left;
     padding: 50px 15px;
@@ -1097,7 +1097,6 @@ div.pyramid-text {
 	font-family: tahoma;
     height: 32px;
     line-height: 32px;
-    width: 30%;
     float: left;
     text-align: right;
     font-size: 25px;
@@ -1711,40 +1710,202 @@ div.searchloaderhover{
 	color:white!important;
 }
 
+@media (max-width: 1024px) {
+	div#leftcontent {
+		width: 262px;
+	}
+}
+
 @media all and (max-width:800px){
+	/* home page  */
+	div#tophdr {
+		flex-direction: column;
+		height: auto;
+		padding: 0;
+		justify-content: flex-start;
+		align-items: flex-start;
+		background-color: #dedede;
+	}
+
+	div.home-img-cont {
+		width: 100%;
+	}
+
+
 	div#content
 	{
 		float:left;
 		padding:0;
-		margin:120px 0px 0px 0px;
+		margin:100px 0px 0px 0px;
 	}
 	div#leftcontent
 	{
-		width:calc(90% - 80px);
+		min-width: 270px;
 		float:left;	
-		margin:0px 0px 0px 5%;
-		padding:40px;
+		margin:0px 0px 0px 0px;	
+		width: 20%;
+		padding: 40px 10px;
 	}
 	div#rightcontent
 	{
 		float:left;
-		width:calc(90% - 80px);
-		padding:40px;
-		margin:20px 0px 20px 5%;
-		
+		width: calc(50% + 70px);
+		padding: 50px 10px;
+		margin: 0px;
+	
 	}
+	/* WALLET PAGE */
+	div#walletcontent {
+		display: flex;
+		flex-direction: row;
+		margin-top: 100px;
+	}
+
 	div#wcleft
 	{
-		width:calc(90% - 80px);
-		padding:40px;
-		margin:0px 0px 0px 5%;
+		min-width: 270px;		
+		padding: 50px 10px;
+		margin: 0;
 		float:left;
 	}
 	div#wcright
 	{
-		width:calc(90% - 80px);
-		padding:40px;
-		margin:20px 0px 20px 5%;
+		margin: 0;
+		padding: 0;
+		width:calc(90% - 80px);		
 		float:left;
 	}
+
+	div#wcleftwrapper {
+		padding: 0;
+	}
+
+	table#encashhistory tbody {
+		display: flex;
+	}
+	table#encashhistory tbody tr:first-child {
+		display: flex;
+		flex-direction: column;
+		width: 125px;
+	}
+	table#encashhistory tbody tr:first-child td {
+		display: flex;
+		align-items: center;
+		width: auto !important;
+	}
+	table#encashhistory tbody tr:last-child  {
+		display: flex;
+		flex-direction: column;
+		width: 80%;
+	}
+
+	table#encashhistory tbody tr:last-child td {
+		height: 40px;
+		border-bottom: 2px solid #dddddd;
+		display: flex;
+		align-items: center;
+	}
+
+
+	/* GENEALOGY PAGE */
+	div#searchtbl {
+		margin-top: 100px;
+	}
 }
+
+@media (max-width: 425px) {
+
+	div#rightcontent {
+		width: 400px;
+	}
+
+	div#usermod, div#walletmod, 
+	div#transactionmod, div#incentivesmod, 
+	div#logoutmod {
+		width: 50px;
+	}
+	div.hdrlinks, div.hdrupdate {
+		display: none;
+	}
+
+	div#wcright {
+		width: 400px;
+	}
+
+	div#lblprosettings, div.futitle, div.lblpassset {
+		margin-top: 100px;
+	}
+	
+	/* UPDATE PROFILE  */
+	div.lblinput {
+		line-height: initial;
+		height: initial;
+		margin-right: 10px;
+	}
+
+	div.lbltxtfld {
+		width: calc(80% - 20px);
+		display: flex;
+	}
+
+	div.inputwrapper {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+	}
+	#firstname, #lastname, #email, #contactno, #address, #bdate {
+		height: 30px;
+	}
+
+	div#profilesettings {
+		padding-top: 0px;
+	}
+
+	#month, #day, #year, #gender, #bankname, #accountno {
+		height: 30px;
+		margin-right: 3px;
+	}
+	#saveregdetails, #discardregdetails {
+		width : 100px;
+	}
+
+	/* PASSWORD SETTINGS */
+	div#passwordsettings {
+		padding-right: 10px;
+	}
+
+	div#passwordsettings form {
+		width: 100%;
+		display: flex;
+		justify-content: flex-end;
+	}
+
+	#oldpass, #retypepass, #newpass {
+		height: 30px;
+	}
+
+	/* TRANSACTION PAGE  */
+	table#pyramidtbl {
+		width: 800px;
+		margin: 20px;
+	}
+	div#tblwrapper {
+		min-width: 800px;
+		background-color: #fff;
+		padding-top: 50px;
+		width: 1428px;
+		margin: 0px;
+	}
+	div#wrapperpyramid {
+		min-width: 1428px;
+		background-color: #fff;
+	}
+	div#transactiontbl {
+		min-width: 1428px;
+	}
+	div#searchtbl {
+		min-width: 1428px;
+	}
+}
+

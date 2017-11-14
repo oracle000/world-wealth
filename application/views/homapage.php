@@ -172,11 +172,11 @@
 						$("#pyramidwrapper").html(e);
 						if($(window).width() <= 1344)
 						{
-							$(".second:last-child").remove();
+							//$(".second:last-child").remove();
 							
 							if($(window).width() <= 1019)
 							{
-								$(".second:nth-last-child(2)").remove();
+								//$(".second:nth-last-child(2)").remove();
 							}
 						}
 						width();

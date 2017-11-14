@@ -160,11 +160,11 @@ else
 								{
 									if($msg !== FALSE)
 									{
-										echo "<span style=\"float:left;color:#009174;line-height:40px;margin-left:10px;font-style:italic;font-family:tahoma;\">Profile Updated!</span>";
+										echo "<span style=\"float:left;color:#009174;font-style:italic;font-family:tahoma;\">Profile Updated!</span>";
 									}
 									else
 									{
-										echo "<span style=\"float:left;color:#ff7c7c;line-height:40px;margin-left:10px;font-style:italic;font-family:tahoma;\">Something went wrong.</span>";
+										echo "<span style=\"float:left;color:#ff7c7c;font-style:italic;font-family:tahoma;\">Something went wrong.</span>";
 									}
 								}
 							?>

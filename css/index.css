@@ -977,6 +977,9 @@ div.lmrow
 }
 @media all and (min-width:321px) and (max-width:1024px){
 
+	div#secondstep {
+		height: 600px;
+	}
 	div#contactus {
 		padding-bottom: 80px;
 	}
@@ -1140,6 +1143,9 @@ div.lmrow
 }
 @media all and (max-width:320px)
 {
+	div#secondstep {
+		height: 600px;
+	}
 
 	div.sub-header  {
 		display: none !important;

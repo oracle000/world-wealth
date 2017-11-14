@@ -87,15 +87,15 @@
 				<?php  
 					if(form_error('day'))
 					{
-						echo form_error('day','<div class="errormsgreg" style="margin-left:-50px"><div class="imgwarning">&nbsp;</div><div class="errormsglbl">','</div></div>');
+						echo form_error('day','<div class="errormsgreg" ><div class="imgwarning">&nbsp;</div><div class="errormsglbl">','</div></div>');
 					}
 					else if(form_error('month'))
 					{
-						echo form_error('month','<div class="errormsgreg" style="margin-left:-50px"><div class="imgwarning">&nbsp;</div><div class="errormsglbl">','</div></div>');
+						echo form_error('month','<div class="errormsgreg" ><div class="imgwarning">&nbsp;</div><div class="errormsglbl">','</div></div>');
 					}
 					else if(form_error('year'))
 					{
-						echo form_error('year','<div class="errormsgreg" style="margin-left:-50px"><div class="imgwarning">&nbsp;</div><div class="errormsglbl">','</div></div>');
+						echo form_error('year','<div class="errormsgreg" ><div class="imgwarning">&nbsp;</div><div class="errormsglbl">','</div></div>');
 					}
 				?>
 			</div>
@@ -111,7 +111,7 @@
 						echo form_dropdown('gender',$arraygender,set_value('gender','0'),'id="genderdropdown"');
 					?>
 				</label>
-				<?php echo form_error('gender','<div class="errormsgreg" style="margin-left:-100px"><div class="imgwarning">&nbsp;</div><div class="errormsglbl">','</div></div>'); ?>
+				<?php echo form_error('gender','<div class="errormsgreg"><div class="imgwarning">&nbsp;</div><div class="errormsglbl">','</div></div>'); ?>
 			</div>
 			<div id="formwrapper">
 				<label for="lblemail" class="lblform"></label>

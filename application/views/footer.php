@@ -21,7 +21,7 @@
 					</div>
 				</div>
 				<div id="copyright">
-					<div><strong>Worldwealth Property and Leisures</strong><span class="gray"> &copy; 2016</span></div>
+					<div><strong>Worldwealth Property and Leisures</strong><span class="gray"> &copy; 2017</span></div>
 					<div><span class="gray">Developed by: </span>Halem Solutions</div>
 				</div>
 			</div>

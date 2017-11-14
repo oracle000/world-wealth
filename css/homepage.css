@@ -43,7 +43,7 @@ div.home-img-text {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	padding-left: 10px;
+	padding-left: 5px;
 }
 div.home-img-text p:first-child {
 	font-size: 20px;
@@ -51,7 +51,9 @@ div.home-img-text p:first-child {
 }
 img.wwicon
 {
-	margin-left:20px;
+	width: 100px;
+	height: 35px;
+	margin-left: 5px;
 }
 div#bothdrcontainer
 {

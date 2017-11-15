@@ -154,6 +154,57 @@ div.faststart-registration li div p:first-child {
     margin-right: 10px;
 }
 
+/* FORGOT PASSWORD */
+div#forgotcontainer {
+    height: 100vh;
+    width: 100%;
+    float: left;
+    margin-bottom: 30px;
+}
+div#forgotmsgwrap {
+    width: 400px;
+    margin: 150px auto auto auto;
+}
+div#forgotbanner {
+    width: 400px;
+    background-color: transparent;
+}
+div#forgotmargin {
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+}
+
+label.forgotcredentials {
+    font-family: "Segoe UI"; 
+    font-size: 18px;
+    font-weight: 100;
+    text-align: center;
+    display: inline-block;
+    height: 40px;
+    width: calc(100% - 40px);
+    margin-top: 30px;
+}
+div.submit-cont {
+    display: flex;
+    width: calc(100% - 40px);
+    align-items: center;
+    justify-content: center;
+}
+#forgotbtn {
+    background-color: #074f8e;
+    outline: none;
+    border: none;
+    color: white;
+    width: 100%;
+    margin-top: 15px;
+    height: 30px;
+    border-radius: 5px;
+}
+#forgotbtn:hover {
+    background-color: #2779c0;
+    cursor: pointer;
+}
 
 
 @media all and (min-width:321px) and (max-width:1024px) { 
@@ -233,6 +284,13 @@ div.faststart-registration li div p:first-child {
     }
     div.faststart-registration li div p {
         width: 200px;
+    }
+
+    div#forgotmsgwrap {
+        width: initial;
+    }
+    div#forgotbanner {
+        width: initial;
     }
 }
 

@@ -54,6 +54,16 @@ class Task extends CI_Controller {
 		$this->load->view('content.php');
 		$this->load->view('footer.php');
 	}
+
+	public function forgot() {
+		$var['title'] = "Home - World Wealth";
+		$this->load->helper('url');
+		$this->load->helper('form');
+		$this->load->view('header.php', $var);
+		$this->load->view('forgotpassword.php');
+		$this->load->view("footer");
+	}
+
 	public function register()
 	{
 		$var['title'] = 'Sign Up - World Wealth';

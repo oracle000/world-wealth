@@ -292,6 +292,11 @@ div.submit-cont {
     div#forgotbanner {
         width: initial;
     }
+
+    div.faststart-registration ul {
+        padding-left: 10px;
+        width: initial;
+    }
 }
 
 @media all and (max-width:320px) {

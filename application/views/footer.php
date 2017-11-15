@@ -2,10 +2,26 @@
 				<div id="footercontainer">
 					<div class="leftfooter">
 						<div class="footerhdr">QUICK LINKS</div>
-						<div class="footerlinks"><i class="fa fa-home icon" aria-hidden="true"></i>Home</div>
-						<div class="footerlinks"><i class="fa fa-sign-in icon" aria-hidden="true"></i>Login</div>
-						<div class="footerlinks"><i class="fa fa-user-plus icon" aria-hidden="true"></i>Signup</div>
-						<div class="footerlinks"><i class="fa fa-phone icon" aria-hidden="true"></i>Contact</div>
+						<div class="footerlinks">
+							<a href="<?php echo base_url(); ?>" class="about-link">
+								<i class="fa fa-home icon" aria-hidden="true"></i>Home
+							</a>
+						</div>
+						<div class="footerlinks">
+							<a href="<?php echo base_url(); ?>task/login" class="about-link">
+								<i class="fa fa-sign-in icon" aria-hidden="true"></i>Login
+							</a>
+						</div>
+						<div class="footerlinks">
+							<a href="<?php echo base_url(); ?>task/register" class="about-link">
+								<i class="fa fa-user-plus icon" aria-hidden="true"></i>Signup
+							</a>
+						</div>
+						<div class="footerlinks">
+							<a href="<?php echo base_url(); ?>task/contact" class="about-link">
+								<i class="fa fa-phone icon" aria-hidden="true"></i>Contact
+							</a>
+						</div>
 						<div class="footerlinks"><i class="fa fa-envelope icon" aria-hidden="true"></i>Message</div>
 					</div>
 					<div class="middlefooter">

@@ -16,7 +16,7 @@
 				<div id="loginmargin">
 					<?php echo form_open('task/checklogin'); ?>
 					<label for="bannertitle" class="bannertitle">Login now to continue</label>
-					<label for="bannertitle" class="bannersubtitle">or Signup here</label>
+					<label for="bannertitle" class="bannersubtitle">or <a href="<?php echo base_url(); ?>task/register" class="res-url">Signup here</a></label>
 					<label for="bannertitle" class="logincredentials">
 						<?php echo form_input('username',set_value('username','Usercode'),'id="username" class="inputlogin" label="Usercode"'); ?>
 					</label>

@@ -2,7 +2,7 @@
 			<div id="companypic">
 				<div class="lblcontent">
 					<div class="textcontent">
-						<span>We empower visionaries to create Wealth and Lifestyles.<br/></span>
+						<span>Empowering visionaries to create Wealth and Lifestyles.<br/></span>
 					</div>
 				</div>
 			</div>

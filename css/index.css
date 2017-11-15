@@ -1237,11 +1237,23 @@ div.lmrow
 		height:*;
 		min-height:*;
 	}
-	div#footercontainer{
-		height:0px;
+	div#footercontainer {
+		display: flex;
+		flex-direction: column
+		/* height:0px;
 		display:none;
-		visibility:hidden;
+		visibility:hidden; */
 	}
+
+	div#footercontainer div.leftfooter,
+	div#footercontainer div.middlefooter {
+		margin-bottom: 10px;
+	}
+	div#footercontainer div.rightfooter {
+		height: 125px;
+		width : 100%;
+	}
+
 	div#copyright{
 		margin-top:0px;
 	}

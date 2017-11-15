@@ -6,7 +6,8 @@
 			<div id="titlecontact" style="margin-bottom:20px;">World Wealth Property Investments & Leisures</div>
 			<div id="cuimages">
 				<div class="ccwrapimg"><img src="<?php echo base_url(); ?>css/img/homeicoblack.png" /></div>
-				<div class="ccwrapdesc">Bldg 22-101 Vitas Katuparan Tondo, Manila</div>
+				<div class="ccwrapdesc">Unit 2018 Light Residences EDSA cor 
+					Madison Street, Mandaluyong City (Beside MRT Boni Station)</div>
 			</div>
 			<div id="cuimages">
 				<div class="ccwrapimg"><img src="<?php echo base_url(); ?>css/img/callicoblack.png" /></div>

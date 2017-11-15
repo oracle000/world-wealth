@@ -84,7 +84,10 @@ a.res-url {
     color: #333;
     text-decoration: none;
 }
-
+a.about-link {
+    color: #fff;
+    text-decoration: none;
+}
 
 @media all and (min-width:321px) and (max-width:1024px){
     div.outside-container {

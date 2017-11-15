@@ -1128,7 +1128,22 @@ div.lmrow
 	input#nextstep {
 		margin-top: 5px;
 	}
+	div#footercontainer {
+		display: flex;
+		flex-direction: column
+		/* height:0px;
+		display:none;
+		visibility:hidden; */
+	}
 
+	div#footercontainer div.leftfooter,
+	div#footercontainer div.middlefooter {
+		margin-bottom: 10px;
+	}
+	div#footercontainer div.rightfooter {
+		height: 125px;
+		width : 100%;
+	}
 	
 }
 @media all and (orientation:portrait)
@@ -1237,6 +1252,7 @@ div.lmrow
 		height:*;
 		min-height:*;
 	}
+
 	div#footercontainer {
 		display: flex;
 		flex-direction: column
@@ -1269,6 +1285,7 @@ div.lmrow
 		display: flex;
 		flex-direction: column;
 		height:  initial;
+		margin-bottom: 30px;
 	}
 	div#leftcontact {
 		width: 100%;
@@ -1277,11 +1294,15 @@ div.lmrow
 		width:  100%;
 	}
 	div#contactus {
-		padding-bottom: 80px;
+		
 	}
 	div#cuimages {
 		display: flex;		
-		height: 40px;
+		height: auto;
+		margin-bottom: 10px;
+	}
+	div.ccwrapdesc {
+		height: auto;
 	}
 
 	div#formwrapper form {

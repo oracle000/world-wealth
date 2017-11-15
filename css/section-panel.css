@@ -226,7 +226,15 @@ div.faststart-registration li div p:first-child {
         height: 100%;
     }
 }
+@media (max-width: 425px) {
 
+    div.faststart-registration li div p:first-child {
+        width: 150px;
+    }
+    div.faststart-registration li div p {
+        width: 200px;
+    }
+}
 
 @media all and (max-width:320px) {
 
@@ -296,4 +304,15 @@ div.faststart-registration li div p:first-child {
         padding-left : 10px;
         width: initial;
     }
+
+    div.faststart-registration li div p:first-child {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        width: 100px;
+    }
+
+    div.faststart-registration li div p{
+        width: 195px;
+    }
+
 }

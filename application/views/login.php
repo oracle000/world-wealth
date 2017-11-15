@@ -27,7 +27,7 @@
 					<label for="bannertitle" class="logincredentials">
 						<?php echo form_submit('loginbtn','Log In','id=loginbtn') ?>
 					</label>
-					<label for="bannertitle" class="forgotpassword">Forgot your password? <a href="<?php echo base_url(); ?>task/forgot" class="res-url">Click here!</a></label>
+					<label for="bannertitle" class="forgotpassword"> <a href="<?php echo base_url(); ?>task/forgot" class="res-url">Forgot your password</a></label>
 					<label for="bannertitle" class="termsandcons">By signing in, you agree to our Terms & Conditions</label>
 				</div>
 			</div>

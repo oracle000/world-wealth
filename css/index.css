@@ -1144,6 +1144,10 @@ div.lmrow
 		height: 125px;
 		width : 100%;
 	}
+
+	div.ccwrapdesc {
+		height: auto;
+	}
 	
 }
 @media all and (orientation:portrait)
@@ -1154,6 +1158,14 @@ div.lmrow
 		//max-height:50% !important;
 		//border:1px solid black;
 		font-size:40px;
+	}
+}
+
+@media (max-width: 425px) {
+	div#cuimages {
+		display: flex;		
+		height: auto;
+		margin-bottom: 10px;
 	}
 }
 @media all and (max-width:320px)

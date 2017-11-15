@@ -283,7 +283,7 @@ div.submit-cont {
         width: 150px;
     }
     div.faststart-registration li div p {
-        width: 200px;
+        width: 195px;
     }
 
     div#forgotmsgwrap {
@@ -295,7 +295,7 @@ div.submit-cont {
 
     div.faststart-registration ul {
         padding-left: 10px;
-        width: initial;
+        width: 100%;
     }
 }
 

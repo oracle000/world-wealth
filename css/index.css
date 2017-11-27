@@ -39,7 +39,7 @@ div#header
 
 	top:0px;
 	height:100px;
-	border-bottom:1px solid silver;
+	border-bottom:1px solid #B05F6D;
 	position:fixed;
 	width:100%;
 	background-color: #ebf0f6;
@@ -85,6 +85,7 @@ div.company-name {
 	display: flex;
 	flex-direction: column;
 	margin-left: 20px;
+	color: #fff;
 }
 div.company-name .title, 
 div.company-name .sub-title {
@@ -185,7 +186,7 @@ div#footer
 	float:left;
 	width:100%;
 	height:*;
-	background-color:#111111;
+	background-color: #B05F6D;
 }
 div#footercontainer
 {
@@ -199,8 +200,8 @@ div#footercontainer
 }
 div#copyright
 {
-	background-color:#024972;
-	box-shadow:0px 0px 5px 0px #012b44;
+	background-color: #462446;
+	box-shadow:0px 0px 5px 0px #431543;
 	padding:10px 0px 10px 0px;
 	text-align:center;
 	width:100%;
@@ -417,9 +418,9 @@ div.lbllinks a
 }
 div#contactus
 {
-	background: -webkit-linear-gradient(-45deg, rgba(125,185,232,1) 0%,rgba(3,74,115,0.25) 99%,rgba(2,73,114,0.25) 100%); 
-	background: -moz-linear-gradient(-45deg, rgba(125,185,232,1) 0%, rgba(3,74,115,0.25) 99%, rgba(2,73,114,0.25) 100%);
-	background: linear-gradient(135deg, rgba(125,185,232,1) 0%,rgba(3,74,115,0.25) 99%,rgba(2,73,114,0.25) 100%); 
+	background: -webkit-linear-gradient(-45deg, rgba(226,214,190,1) 0%,rgba(221,215,204,1) 100%);
+	background: -moz-linear-gradient(-45deg, rgba(226,214,190,1) 0%, rgba(221,215,204,1) 100%);
+	background: linear-gradient(135deg, rgba(226,214,190,1) 0%,rgba(221,215,204,1) 100%);
 	height:*;
 	width:100%;
 	width:100%;
@@ -530,9 +531,9 @@ div#companypic
 }
 div#loginwrapper
 {
-	background: -webkit-linear-gradient(-45deg, rgba(125,185,232,1) 0%,rgba(3,74,115,0.25) 99%,rgba(2,73,114,0.25) 100%); 
-	background: -moz-linear-gradient(-45deg, rgba(125,185,232,1) 0%, rgba(3,74,115,0.25) 99%, rgba(2,73,114,0.25) 100%);
-	background: linear-gradient(135deg, rgba(125,185,232,1) 0%,rgba(3,74,115,0.25) 99%,rgba(2,73,114,0.25) 100%); 
+	background: -webkit-linear-gradient(-45deg, rgba(226,214,190,1) 0%,rgba(221,215,204,1) 100%);
+	background: -moz-linear-gradient(-45deg, rgba(226,214,190,1) 0%, rgba(221,215,204,1) 100%);
+	background: linear-gradient(135deg, rgba(226,214,190,1) 0%,rgba(221,215,204,1) 100%);
 	height:*;
 	float:left;
 	width:100%;
@@ -673,9 +674,9 @@ div.loginimgwrap
 }
 div#registrationwrapper
 {
-	background: -webkit-linear-gradient(-45deg, rgba(125,185,232,1) 0%,rgba(3,74,115,0.25) 99%,rgba(2,73,114,0.25) 100%); 
-	background: -moz-linear-gradient(-45deg, rgba(125,185,232,1) 0%, rgba(3,74,115,0.25) 99%, rgba(2,73,114,0.25) 100%);
-	background: linear-gradient(135deg, rgba(125,185,232,1) 0%,rgba(3,74,115,0.25) 99%,rgba(2,73,114,0.25) 100%); 
+	background: -webkit-linear-gradient(-45deg, rgba(226,214,190,1) 0%,rgba(221,215,204,1) 100%);
+	background: -moz-linear-gradient(-45deg, rgba(226,214,190,1) 0%, rgba(221,215,204,1) 100%);
+	background: linear-gradient(135deg, rgba(226,214,190,1) 0%,rgba(221,215,204,1) 100%);
 
 	height:100%;
 	width:100%;

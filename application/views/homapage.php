@@ -2,7 +2,7 @@
 <head>
 	<title>WorldWealth - Home</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
-	<link rel="icon" href="<?php echo base_url(); ?>css/img/favico.ico">
+	<link rel="icon" href="<?php echo base_url(); ?>css/img/favicon.ico">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/homepage.css" />	
 	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -342,7 +342,11 @@
 				
 
 			}
-
+			$("#pyramidwrapper").on('click','.clickablesearch',function(){
+				$("#idno").val($(this).attr("id"));
+				reloadpyramid();
+				//alert($(this).attr("id"));
+			});
 		});
 	</script>
 </head>

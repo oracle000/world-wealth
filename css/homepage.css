@@ -15,7 +15,7 @@ div#header
 	position:fixed;
 	height: 60px;
 	width:100%;
-	background-color: #3b8dbd;
+	background-color: #B05F6D	;
 	z-index:2;
 }
 div#tophdr
@@ -32,7 +32,7 @@ a.home-img {
 }
 div.home-img-cont {
 	display: flex;
-	background-color: #3f454a;
+	background-color: #B05F6D;
     color: #fff;
     width: 270px;
     border-bottom: 1px solid rgba(255,255,255,0.2);
@@ -83,7 +83,7 @@ div#usermod, div#walletmod
 	color: #fff;
 }
 div.hover-navigation {
-	background-color: #ebf0f6;
+	background-color: #E2D6BE;
 	color: #333;
 }
 div#transactionmod,div#incentivesmod
@@ -114,7 +114,7 @@ div#logoutmod
 div#usermod:hover,div#walletmod:hover,div#transactionmod:hover,div#incentivesmod:hover,div#logoutmod:hover
 {
 	
-	background-color:#ebf0f6;
+	background-color:#E2D6BE;
 	cursor:pointer;
 }
 div.hdrlinks, div.hdrupdate
@@ -148,7 +148,7 @@ div#content
 div#leftcontent
 {	
 	color: #fff;
-    background-color: #3f454a;
+    background-color: #462446;
     height: *;
 	width: calc(20% - 30px);	
     /* box-shadow: 0px 0px 3px 0px #ededed; */
@@ -157,7 +157,7 @@ div#leftcontent
 }
 div#rightcontent
 {
-	background-color: #ebf0f6;
+	background-color: #E2D6BE;
     height: *;
     width: calc(80% - 40px);
     /* box-shadow: 0px 0px 3px 0px #ededed; */
@@ -1021,7 +1021,7 @@ div#searchtbl
 {
 	height:70px;
 	box-shadow:0px 0px 5px 0px #efefef;
-	background-color: #ebf0f6;
+	background-color: #E2D6BE;
 	margin-top: 60px;
 	width: 100%;	
 }
@@ -1523,7 +1523,7 @@ div#walletcontent
 	margin-top: 60px;
 	width:100%;
 	float:left;
-	background-color: #ebf0f6;
+	background-color: #E2D6BE;
 }
 div#wcleft
 {
@@ -1538,7 +1538,7 @@ div#wcright
 	height:*;
 	float:left;
 	width:calc(80% - 60px);	
-	background-color: #ebf0f6;
+	background-color: #E2D6BE;
 
 }
 div#wcleftwrapper

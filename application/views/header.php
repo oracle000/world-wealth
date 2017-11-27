@@ -6,7 +6,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/index.css" />
-	<!-- <link rel="stylesheet" type="text/css" href="css/index.css" /> -->
+	<link rel="icon" href="<?php echo base_url(); ?>css/img/favicon.ico">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/header.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/section-panel.css" />
 	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">

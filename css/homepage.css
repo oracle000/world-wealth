@@ -197,7 +197,8 @@ div#userpicwrapper
 }
 div#userpic
 {
-	
+	background-color: #8c8c8cc2;
+    border-radius: 50%;
 	margin:auto;
 	width: 120px;
 	height: 120px;
@@ -239,11 +240,11 @@ div#rcwrapper
 {
 	height:*;
 }
-div.tabreg span, div.tabcom span
+div.tabreg span, div.tabcom span, div.tabusersetup span, div.tabsyssetup span
 {
 	margin-left:5px;
 }
-div.tabreg, div.tabcom
+div.tabreg, div.tabcom, div.tabusersetup, div.tabsyssetup
 {
 	border-radius: 5px;
     height: 30px;
@@ -1942,9 +1943,15 @@ div.searchloaderhover{
 /* ADMIN VIEW */
 div#filterswrapper
 {
+	display: flex;
+	height: 50px;
+	align-items: center;
+    padding-left: 10px;
 	border:1px solid black;
-	height:30px;
+	height:*;
 	background-color:#efefef;
+	float:left;
+	width:100%;
 }
 table#tblmain
 {
@@ -1961,9 +1968,10 @@ div#opacitywrapper
 {
 	height:100%;
 	width:100%;
-	background-color:rgba(0, 0, 0, 0.3);
+	background-color:rgba(0, 0, 0, 0.7);
 	position:fixed;
 	z-index:2;
+	display:none
 }
 div#dialogcon
 {
@@ -1975,6 +1983,33 @@ div#dialogcon
 	top:15%;
 	left:5%;
 	background-color:white;
+}
+div#dialogpayapplcon
+{
+	border-radius: 10px;
+	position:fixed;
+	height:70%;
+	width:90%;
+	border:1px solid black;
+	top:15%;
+	left:5%;
+	background-color:white;
+}
+div#dialogeditusercon
+{
+	border-radius: 10px;
+	position:fixed;
+	height:70%;
+	width:40%;
+	border:1px solid black;
+	top:15%;
+	left:30%;
+	background-color:white;
+	display:none;
+}
+div#releasecon
+{
+	display:none;
 }
 div#dialoghdr
 {
@@ -2019,7 +2054,7 @@ table#tbldialog thead tr td
     border-right: .5px solid rgba(255,255,255,0.8);
     padding-left: 10px;
     height: 40px;
-    font-weight: bold;
+    font-weight: bol	d;
     text-transform: uppercase;
 }
 table#tbldialog tbody tr td
@@ -2031,4 +2066,130 @@ table#tbldialog tbody tr td
 div#dialogcontent
 {	
 	height:calc(100% - 150px);
+}
+div#dialogbtn
+{
+	margin-top:10px;
+	height:70px;
+}
+div#dialogbtn input[type="button"]
+{
+	height:30px;
+	width:100px;
+	border:1px solid #efefef;
+	box-shadow:0px 0px 4px 1px #efefef;
+	background-color:white;
+	margin-left:20px;
+	float:right;
+	font-weight:bold;
+}
+div#dialogbtn :first-child
+{
+	margin-right:20px;
+
+}
+table#editusertbl
+{
+	margin-left:20px;
+	width:calc(100% - 40px);
+}
+table#editusertbl tr td
+{
+	height:30px;
+}
+table#editusertbl tr td input
+{
+	width:100%;
+}
+table#editusertbl tr td select
+{
+	width:100%;
+}
+table#reportresult
+{
+	width:100%;
+	border-spacing:0;
+}
+div#rptfiltercon
+{
+	display: flex;
+	/* float:left; */
+	width:*;
+	margin-right:10px;
+	height:30px;
+}
+div#rptfiltercon span.labelname
+{
+	height:30px;
+	line-height:30px;
+	/* float:left; */
+	width:*;
+	padding-right:10px;
+	font-size: 18px;
+}
+
+div#rptfiltercon span.labelname input {
+	height: 100%;
+    width: 120px;
+    border: none;
+    background-color: #074f8e;
+    color: #fff;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+}
+div#rptfiltercon span.rptinputcon
+{
+	height:30px;
+	line-height:30px;
+	/* float:left; */
+	width:*;
+}
+
+div#rptfiltercon span.rptinputcon select {
+	height: 30px;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0.1);
+    width: 120px;
+    font-size: 15px;
+    outline: none;
+    padding: 0 10px;
+}
+
+
+
+div#rptfiltercon span.rptinputcon input {
+	border: 1px solid rgba(0,0,0,0.2);
+    height: 30px;
+    border-radius: 10px;
+    font-size: 15px;
+    outline: none;
+    padding-left: 10px;
+    width: 150px;
+}
+
+
+table#tablesyssetup
+{
+	width:100%;
+	text-indent:10px;
+	border-spacing:0;
+}
+table#tablesyssetup tr td
+{
+	height:25px;
+	//border-bottom:1px solid black;
+}
+table#tablesyssetup tr:first-child td
+{
+	//border-top:1px solid black;
+	//border-bottom:2px solid black;
+}
+table#tablesyssetup input[type="text"]
+{
+	width:calc(100% - 20px);
+}
+table#tablesyssetup input[type="button"]
+{
+	width:100px;
 }

@@ -14,7 +14,7 @@
 		</div>
 		
 		<div id="transactiontbl">
-		<div class="pyramid-text">Genealogy - Business Founder</div>
+		<div class="pyramid-text">Pyramid View - Business Founder</div>
 			<div id="pyramidwrapper">
 			<!-- Loaded Dynamically -->
 			</div>

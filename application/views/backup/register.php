@@ -11,24 +11,24 @@
 				
 			</div>	
 			<div id="formwrapper">
-				<label for="lblemail" class="lblform" style='float:left;line-height:30px;'>Sponsor ID</label>
+				<label for="lblemail" class="lblform" style='float:left;line-height:30px;'>Upline Id</label>
 				<label for="inputform" class="inputform">
 					<div class='acupline'>
 						<div class='curselect'><?php echo form_input("uplineid",set_value('uplineid'),'id="uplineid" class="registerinput"'); ?></div>
-						<!--<div class='uiselect'></div>
-						<div id="clear" style="clear:both;"></div>-->
+						<div class='uiselect'></div>
+						<div id="clear" style="clear:both;"></div>
 					</div>
 				<?php //echo form_input('uplineid',set_value('uplineid'),'id="uplineid" class="registerinput"'); ?>
 				</label>
 				<?php echo form_error('uplineid','<div class="errormsgreg"><div class="imgwarning">&nbsp;</div><div class="errormsglbl">','</div></div>')?>
 			</div>
 			<div id="formwrapper">
-				<label for="lblemail" class="lblform" style='float:left;line-height:30px;'>Replacement ID</label>
+				<label for="lblemail" class="lblform" style='float:left;line-height:30px;'>Sponsor Id</label>
 				<label for="inputform" class="inputform">
 					<div class='acsponsor'>
 						<div class='curselect'><?php echo form_input("sponsorid",set_value('sponsorid'),'id="sponsorid", class="registerinput"'); ?></div>
-						<!--<div class='siselect'></div>
-						<div id="clear" style="clear:both;"></div>-->
+						<div class='siselect'></div>
+						<div id="clear" style="clear:both;"></div>
 					</div>
 				</label>
 				<?php echo form_error('sponsorid','<div class="errormsgreg"><div class="imgwarning">&nbsp;</div><div class="errormsglbl">','</div></div>')?>

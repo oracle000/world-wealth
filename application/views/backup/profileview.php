@@ -71,27 +71,19 @@
 					<div id="rctitle">
 						<div class="tabreg">
 							<i class="fa fa-list" aria-hidden="true"></i>
-							<span>Membership</span>
+							<span>Registration</span>
 						</div>
 						<div class="tabcom">
 							<i class="fa fa-usd" aria-hidden="true"></i>
-							<span>Receivables Incentives</span>
+							<span>Commission</span>
 						</div>
 						<div class="tabcom">
 							<i class="fa fa-star" aria-hidden="true"></i>
 							<span>Pool</span>
 						</div>
-						<div class="tabcom" style="display:none">
+						<div class="tabcom">
 							<i class="fa fa-money" aria-hidden="true"></i>
 							<span>Directors Pot</span>
-						</div>
-						<div class="tabcom">
-							<i class="fa fa-money" aria-hidden="true"></i>
-							<span>Withdrawable Incentives</span>
-						</div>
-						<div class="tabcom">
-							<i class="fa fa-money" aria-hidden="true"></i>
-							<span>Other Services</span>
 						</div>
 					</div>
 					<div id="rccolhdr">
@@ -99,7 +91,6 @@
 						<div class="rccollbltothdr">Total</div>
 					</div>
 					<div class="rcreg">
-						<!--
 						<div id="rccolres">
 							<div class="rccollbldeschdr">
 								<span class="rcdesctop">Direct Member(s)</span>
@@ -107,7 +98,6 @@
 							</div>
 							<div class="rccollbltotres"><?php echo $total ?></div>
 						</div>
-						-->
 						<div id="rccolres">
 							<div class="rccollbldeschdr">
 								<span class="rcdesctop">Total Member(s)</span>
@@ -120,21 +110,14 @@
 								<span class="rcdesctop">Property Allocation</span>
 								<span class="rcdescbot">Total Allocated Amount for Property</span>
 							</div>
-							<div class="rccollbltotres"><?php echo number_format($summary[1]['registrationproperty'],2); ?></div>
+							<div class="rccollbltotres"><?php echo number_format($summary[0]['propertyallocation'],2); ?></div>
 						</div>
 						<div id="rccolres">
 							<div class="rccollbldeschdr">
 								<span class="rcdesctop">Cash Allocation</span>
 								<span class="rcdescbot">Total Allocated Amount for Cash</span>
 							</div>
-							<div class="rccollbltotres"><?php echo number_format($summary[1]['registrationcash'],2); ?></div>
-						</div>
-						<div id="rccolres">
-							<div class="rccollbldeschdr">
-								<span class="rcdesctop">Holiday/Car Allocation</span>
-								<span class="rcdescbot">Total Allocated Amount for Holiday/Car</span>
-							</div>
-							<div class="rccollbltotres"><?php echo number_format($summary[1]['registrationholiday'],2); ?></div>
+							<div class="rccollbltotres"><?php echo number_format($summary[0]['cashallocation'],2); ?></div>
 						</div>
 						<!--
 						<div id="rccolres">
@@ -181,35 +164,35 @@
 								<span class="rcdesctop">Property Commision</span>
 								<span class="rcdescbot">Your Property Commision Amount</span>
 							</div>
-							<div class="rccollbltotres"><?php echo number_format($commision['totalamount'],2); ?></div>
+							<div class="rccollbltotres"><?php echo number_format($commision[0]['totalamount'],2); ?></div>
 						</div>
 						<div id="rccolres">
 							<div class="rccollbldeschdr">
 								<span class="rcdesctop">Cash Allocation (40%)</span>
 								<span class="rcdescbot">Total Allocated Amount for Cash</span>
 							</div>
-							<div class="rccollbltotres"><?php echo number_format($commision['cashamount'],2); ?></div>
+							<div class="rccollbltotres"><?php echo number_format($commision[0]['cashamount'],2); ?></div>
 						</div>
 						<div id="rccolres">
 							<div class="rccollbldeschdr">
 								<span class="rcdesctop">Holiday Allocation (10%)</span>
 								<span class="rcdescbot">Total Allocated Amount for Holiday</span>
 							</div>
-							<div class="rccollbltotres"><?php echo number_format($commision['holidayamount'],2); ?></div>
+							<div class="rccollbltotres"><?php echo number_format($commision[0]['holidayamount'],2); ?></div>
 						</div>
 						<div id="rccolres">
 							<div class="rccollbldeschdr">
 								<span class="rcdesctop">Car Allocation (20%)</span>
 								<span class="rcdescbot">Total Allocated Amount for Car</span>
 							</div>
-							<div class="rccollbltotres"><?php echo number_format($commision['caramount'],2); ?></div>
+							<div class="rccollbltotres"><?php echo number_format($commision[0]['caramount'],2); ?></div>
 						</div>
 						<div id="rccolres">
 							<div class="rccollbldeschdr">
-								<span class="rcdesctop">Property Allocation (30%)</span>
+								<span class="rcdesctop">Property Allocation (20%)</span>
 								<span class="rcdescbot">Total Allocated Amount for Property</span>
 							</div>
-							<div class="rccollbltotres"><?php echo number_format($commision['propertyinvamount'],2); ?></div>
+							<div class="rccollbltotres"><?php echo number_format($commision[0]['propertyinvamount'],2); ?></div>
 						</div>
 					</div>
 				</div>

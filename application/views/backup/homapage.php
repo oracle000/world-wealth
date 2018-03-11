@@ -14,6 +14,7 @@
 			$("#search").click(function(){
 				reloadpyramid();
 			});
+			console.log($(window).width());
 			$("body").on('keyup','#idno',function(e){
 				if(e.keyCode == 13)
 				{
@@ -245,7 +246,7 @@
 				$("div.rccomm").css('display','none');
 			});
 			var cashamount = $(".cashamount").text();
-			$("#forexconvert").on('change',function(){
+			$("#forexconvert").change(function(){
 				$("#encashamount").val("");
 				$.ajax({
 					url:"<?php echo base_url(); ?>portal/converterapi",
@@ -358,7 +359,7 @@
 					<a href="<?php echo base_url(); ?>portal/homepage" class="home-img"><img class="wwicon" src="<?php echo base_url(); ?>css/img/wwicon2-dark.jpg" height=50px title="Homepage World Wealth"></a>
 					<div class="home-img-text">
 						<p>World Wealth</p>
-						<p>Properties and Leisures</p>
+						<p>Property and Leisure</p>
 					</div>
 				</div>
 				<div id="bothdrcontainer">

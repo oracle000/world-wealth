@@ -207,6 +207,18 @@ div.submit-cont {
 }
 
 
+/* last panel  */
+#img-achievement {
+    height : 100vh;
+    background : url(img/achievements.png);
+    width:  100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
 @media all and (min-width:321px) and (max-width:1024px) { 
     div.wwr-cont {
         display: flex;

@@ -136,7 +136,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				</div>
 				<div class="reglblinputwrap" style='height:50px'>
 					<div class="halfregleft">
-						<div class="reglbl">Replacement ID</div>
+						<div class="reglbl">Sponsor ID</div>
 						<div class="reginput">
 							<div class='acsponsor'>
 								<div class='curselect'><?php echo form_input("sponsorid",set_value('sponsorid'),"id=\"sponsorid\""); ?></div>
@@ -146,7 +146,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						</div>
 					</div>
 					<div class="halfregright">
-						<div class="reglbl">Sponsor ID</div>
+						<div class="reglbl">Upline ID</div>
 						<div class="reginput">
 							<div class='acupline'>
 								<div class='curselect'><?php echo form_input("uplineid",set_value('uplineid'),"id=\"uplineid\""); ?></div>

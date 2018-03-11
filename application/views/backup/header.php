@@ -262,7 +262,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<img src="<?php echo base_url(); ?>css/img/wwicon2.jpg" />
 					<div class="company-name">
 						<p class="title">World Wealth</p>
-						<p class="sub-title">Properties and Leisures</p>
+						<p class="sub-title">Property and Leisure</p>
 					</div>					
 				</div>				
 				<span class="clear"></span>
